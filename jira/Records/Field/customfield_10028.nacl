@@ -1,0 +1,12 @@
+jira.Field customfield_10028 {
+  id = "customfield_10028"
+  name = "Story Points"
+  schema = {
+    type = "number"
+    custom = "com.atlassian.jira.plugin.system.customfieldtypes:float"
+    customId = 10028
+  }
+  description = "Measurement of complexity and/or size of a requirement."
+  key = "customfield_10028"
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber"
+}

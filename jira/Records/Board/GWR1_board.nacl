@@ -52,11 +52,29 @@ jira.Board GWR1_board@s {
             ]
           },
           {
-            name = "In Progress"
+            name = "WIP1"
             statuses = [
               {
                 id = "10001"
                 self = "https://geoffr.atlassian.net/rest/api/2/status/10001"
+              },
+            ]
+          },
+          {
+            name = "Waiting"
+            statuses = [
+              {
+                id = "10004"
+                self = "https://geoffr.atlassian.net/rest/api/2/status/10004"
+              },
+            ]
+          },
+          {
+            name = "WIP2"
+            statuses = [
+              {
+                id = "10003"
+                self = "https://geoffr.atlassian.net/rest/api/2/status/10003"
               },
             ]
           },

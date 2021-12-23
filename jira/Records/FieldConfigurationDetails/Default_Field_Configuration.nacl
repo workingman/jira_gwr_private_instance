@@ -273,5 +273,11 @@ jira.FieldConfigurationDetails Default_Field_Configuration@s {
       isHidden = false
       isRequired = false
     },
+    {
+      id = "customfield_10028"
+      description = "Measurement of complexity and/or size of a requirement."
+      isHidden = false
+      isRequired = false
+    },
   ]
 }

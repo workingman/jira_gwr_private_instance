@@ -172,6 +172,10 @@ jira.Screen Default_Screen@s {
       name = "Start date"
     },
     {
+      id = "customfield_10028"
+      name = "Story Points"
+    },
+    {
       id = "customfield_10016"
       name = "Story point estimate"
     },
