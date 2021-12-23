@@ -52,29 +52,11 @@ jira.Board GWR1_board@s {
             ]
           },
           {
-            name = "WIP1"
+            name = "In Progress"
             statuses = [
               {
                 id = "10001"
                 self = "https://geoffr.atlassian.net/rest/api/2/status/10001"
-              },
-            ]
-          },
-          {
-            name = "Waiting"
-            statuses = [
-              {
-                id = "10004"
-                self = "https://geoffr.atlassian.net/rest/api/2/status/10004"
-              },
-            ]
-          },
-          {
-            name = "WIP2"
-            statuses = [
-              {
-                id = "10003"
-                self = "https://geoffr.atlassian.net/rest/api/2/status/10003"
               },
             ]
           },
@@ -84,6 +66,18 @@ jira.Board GWR1_board@s {
               {
                 id = "10002"
                 self = "https://geoffr.atlassian.net/rest/api/2/status/10002"
+              },
+              {
+                id = "10003"
+                self = "https://geoffr.atlassian.net/rest/api/2/status/10003"
+              },
+              {
+                id = "10004"
+                self = "https://geoffr.atlassian.net/rest/api/2/status/10004"
+              },
+              {
+                id = "10005"
+                self = "https://geoffr.atlassian.net/rest/api/2/status/10005"
               },
             ]
           },
