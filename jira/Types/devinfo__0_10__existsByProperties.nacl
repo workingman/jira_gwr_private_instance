@@ -1,0 +1,6 @@
+type jira.devinfo__0_10__existsByProperties@uuvuu {
+  boolean hasDataMatchingProperties {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

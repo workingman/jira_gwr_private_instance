@@ -1,0 +1,8 @@
+type jira.IssueTypeInfo {
+  number id {
+  }
+  string name {
+  }
+  number avatarId {
+  }
+}

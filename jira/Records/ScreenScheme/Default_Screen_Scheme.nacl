@@ -1,0 +1,8 @@
+jira.ScreenScheme Default_Screen_Scheme@s {
+  id = 1
+  name = "Default Screen Scheme"
+  description = "Default Screen Scheme"
+  screens = {
+    default = 1
+  }
+}

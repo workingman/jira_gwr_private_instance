@@ -1,0 +1,18 @@
+type jira.UserBean {
+  string key {
+  }
+  string self {
+  }
+  string name {
+  }
+  string displayName {
+  }
+  boolean active {
+  }
+  string accountId {
+  }
+  jira.UserBeanAvatarUrls avatarUrls {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

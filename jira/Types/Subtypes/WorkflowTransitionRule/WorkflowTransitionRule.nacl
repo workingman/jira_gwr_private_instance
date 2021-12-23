@@ -1,0 +1,6 @@
+type jira.WorkflowTransitionRule {
+  string type {
+  }
+  unknown configuration {
+  }
+}

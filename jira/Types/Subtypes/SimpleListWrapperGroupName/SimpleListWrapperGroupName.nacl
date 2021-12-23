@@ -1,0 +1,14 @@
+type jira.SimpleListWrapperGroupName {
+  number size {
+  }
+  "List<jira.GroupName>" items {
+  }
+  jira.ListWrapperCallbackGroupName pagingCallback {
+  }
+  jira.ListWrapperCallbackGroupName callback {
+  }
+  number "max-results" {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

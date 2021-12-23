@@ -1,0 +1,6 @@
+type jira.ComponentIssuesCount {
+  string self {
+  }
+  number issueCount {
+  }
+}

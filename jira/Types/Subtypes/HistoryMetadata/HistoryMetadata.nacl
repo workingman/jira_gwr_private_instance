@@ -1,0 +1,26 @@
+type jira.HistoryMetadata {
+  string type {
+  }
+  string description {
+  }
+  string descriptionKey {
+  }
+  string activityDescription {
+  }
+  string activityDescriptionKey {
+  }
+  string emailDescription {
+  }
+  string emailDescriptionKey {
+  }
+  jira.HistoryMetadataParticipant actor {
+  }
+  jira.HistoryMetadataParticipant generator {
+  }
+  jira.HistoryMetadataParticipant cause {
+  }
+  jira.HistoryMetadata_extraData extraData {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

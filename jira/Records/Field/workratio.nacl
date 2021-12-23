@@ -1,0 +1,10 @@
+jira.Field workratio {
+  id = "workratio"
+  name = "Work Ratio"
+  schema = {
+    type = "number"
+    system = "workratio"
+  }
+  description = ""
+  key = "workratio"
+}

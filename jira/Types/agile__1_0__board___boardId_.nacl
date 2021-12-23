@@ -1,0 +1,22 @@
+type jira.agile__1_0__board___boardId_@uuvuuuu_00123_00125 {
+  number id {
+  }
+  string self {
+  }
+  string name {
+  }
+  string type {
+  }
+  jira.agile__1_0__board___boardId__admins@uuvuuuu_00123_00125u admins {
+  }
+  jira.agile__1_0__board___boardId__location@uuvuuuu_00123_00125u location {
+  }
+  boolean canEdit {
+  }
+  boolean isPrivate {
+  }
+  boolean favourite {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

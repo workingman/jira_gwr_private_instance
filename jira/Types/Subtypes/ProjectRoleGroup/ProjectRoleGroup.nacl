@@ -1,0 +1,8 @@
+type jira.ProjectRoleGroup {
+  string displayName {
+  }
+  string name {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

@@ -1,0 +1,22 @@
+type jira.IssueBean_transitions_fields_additionalProperties {
+  boolean required {
+  }
+  unknown schema {
+  }
+  string name {
+  }
+  string key {
+  }
+  string autoCompleteUrl {
+  }
+  boolean hasDefaultValue {
+  }
+  "List<string>" operations {
+  }
+  "List<unknown>" allowedValues {
+  }
+  unknown defaultValue {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

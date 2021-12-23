@@ -1,0 +1,10 @@
+jira.IssueTypeDetails Epic {
+  self = "https://geoffr.atlassian.net/rest/api/3/issuetype/10000"
+  id = "10000"
+  description = "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete."
+  iconUrl = "https://geoffr.atlassian.net/images/icons/issuetypes/epic.svg"
+  name = "Epic"
+  untranslatedName = "Epic"
+  subtask = false
+  hierarchyLevel = 1
+}

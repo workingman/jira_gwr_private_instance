@@ -1,0 +1,30 @@
+type jira.ProjectComponent {
+  string self {
+  }
+  string id {
+  }
+  string name {
+  }
+  string description {
+  }
+  jira.User lead {
+  }
+  string leadUserName {
+  }
+  string leadAccountId {
+  }
+  string assigneeType {
+  }
+  jira.User assignee {
+  }
+  string realAssigneeType {
+  }
+  jira.User realAssignee {
+  }
+  boolean isAssigneeTypeValid {
+  }
+  string project {
+  }
+  number projectId {
+  }
+}

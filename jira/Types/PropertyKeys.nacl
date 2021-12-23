@@ -1,0 +1,4 @@
+type jira.PropertyKeys {
+  "List<jira.PropertyKey>" keys {
+  }
+}

@@ -1,0 +1,8 @@
+type jira.IssueTypeWorkflowMapping {
+  string issueType {
+  }
+  string workflow {
+  }
+  boolean updateDraftIfNeeded {
+  }
+}

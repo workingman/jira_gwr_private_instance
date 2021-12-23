@@ -1,0 +1,6 @@
+type jira.IssueEvent {
+  number id {
+  }
+  string name {
+  }
+}

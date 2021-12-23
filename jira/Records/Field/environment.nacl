@@ -1,0 +1,10 @@
+jira.Field environment {
+  id = "environment"
+  name = "Environment"
+  schema = {
+    type = "string"
+    system = "environment"
+  }
+  description = ""
+  key = "environment"
+}

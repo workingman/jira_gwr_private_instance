@@ -1,0 +1,8 @@
+type jira.agile__1_0__board___boardId__admins_groups@uuvuuuu_00123_00125uu {
+  string name {
+  }
+  string self {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

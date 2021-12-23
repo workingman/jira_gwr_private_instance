@@ -1,0 +1,10 @@
+jira.Field progress {
+  id = "progress"
+  name = "Progress"
+  schema = {
+    type = "progress"
+    system = "progress"
+  }
+  description = ""
+  key = "progress"
+}

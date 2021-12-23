@@ -1,0 +1,708 @@
+jira.PermissionScheme Default_Permission_Scheme@s {
+  id = 0
+  self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0"
+  name = "Default Permission Scheme"
+  description = "This is the default Permission Scheme. Any new projects that are created will be assigned this scheme."
+  permissions = [
+    {
+      id = 10004
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10004"
+      holder = {
+        type = "projectRole"
+        parameter = "10002"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.Administrators
+        }
+      }
+      permission = "ADMINISTER_PROJECTS"
+    },
+    {
+      id = 10014
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10014"
+      holder = {
+        type = "projectRole"
+        parameter = "10002"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.Administrators
+        }
+      }
+      permission = "DELETE_ISSUES"
+    },
+    {
+      id = 10018
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10018"
+      holder = {
+        type = "projectRole"
+        parameter = "10002"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.Administrators
+        }
+      }
+      permission = "MODIFY_REPORTER"
+    },
+    {
+      id = 10020
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10020"
+      holder = {
+        type = "projectRole"
+        parameter = "10002"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.Administrators
+        }
+      }
+      permission = "DELETE_ALL_WORKLOGS"
+    },
+    {
+      id = 10022
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10022"
+      holder = {
+        type = "projectRole"
+        parameter = "10002"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.Administrators
+        }
+      }
+      permission = "EDIT_ALL_WORKLOGS"
+    },
+    {
+      id = 10025
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10025"
+      holder = {
+        type = "projectRole"
+        parameter = "10002"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.Administrators
+        }
+      }
+      permission = "MANAGE_WATCHERS"
+    },
+    {
+      id = 10026
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10026"
+      holder = {
+        type = "projectRole"
+        parameter = "10002"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.Administrators
+        }
+      }
+      permission = "EDIT_ALL_COMMENTS"
+    },
+    {
+      id = 10028
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10028"
+      holder = {
+        type = "projectRole"
+        parameter = "10002"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.Administrators
+        }
+      }
+      permission = "DELETE_ALL_COMMENTS"
+    },
+    {
+      id = 10030
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10030"
+      holder = {
+        type = "projectRole"
+        parameter = "10002"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.Administrators
+        }
+      }
+      permission = "DELETE_ALL_ATTACHMENTS"
+    },
+    {
+      id = 10431
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10431"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "ADD_COMMENTS"
+    },
+    {
+      id = 10432
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10432"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "ADMINISTER_PROJECTS"
+    },
+    {
+      id = 10433
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10433"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "ASSIGNABLE_USER"
+    },
+    {
+      id = 10434
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10434"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "ASSIGN_ISSUES"
+    },
+    {
+      id = 10435
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10435"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "BROWSE_PROJECTS"
+    },
+    {
+      id = 10436
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10436"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "CLOSE_ISSUES"
+    },
+    {
+      id = 10437
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10437"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "CREATE_ATTACHMENTS"
+    },
+    {
+      id = 10438
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10438"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "CREATE_ISSUES"
+    },
+    {
+      id = 10439
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10439"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "DELETE_ALL_ATTACHMENTS"
+    },
+    {
+      id = 10440
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10440"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "DELETE_ALL_COMMENTS"
+    },
+    {
+      id = 10441
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10441"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "DELETE_ALL_WORKLOGS"
+    },
+    {
+      id = 10442
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10442"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "DELETE_ISSUES"
+    },
+    {
+      id = 10443
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10443"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "DELETE_OWN_ATTACHMENTS"
+    },
+    {
+      id = 10444
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10444"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "DELETE_OWN_COMMENTS"
+    },
+    {
+      id = 10445
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10445"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "DELETE_OWN_WORKLOGS"
+    },
+    {
+      id = 10446
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10446"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "EDIT_ALL_COMMENTS"
+    },
+    {
+      id = 10447
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10447"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "EDIT_ALL_WORKLOGS"
+    },
+    {
+      id = 10448
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10448"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "EDIT_ISSUES"
+    },
+    {
+      id = 10449
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10449"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "EDIT_OWN_COMMENTS"
+    },
+    {
+      id = 10450
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10450"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "EDIT_OWN_WORKLOGS"
+    },
+    {
+      id = 10451
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10451"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "LINK_ISSUES"
+    },
+    {
+      id = 10452
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10452"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "MANAGE_SPRINTS_PERMISSION"
+    },
+    {
+      id = 10453
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10453"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "MANAGE_WATCHERS"
+    },
+    {
+      id = 10454
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10454"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "MODIFY_REPORTER"
+    },
+    {
+      id = 10455
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10455"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "MOVE_ISSUES"
+    },
+    {
+      id = 10456
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10456"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "RESOLVE_ISSUES"
+    },
+    {
+      id = 10457
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10457"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "SCHEDULE_ISSUES"
+    },
+    {
+      id = 10458
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10458"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "SET_ISSUE_SECURITY"
+    },
+    {
+      id = 10459
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10459"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "TRANSITION_ISSUES"
+    },
+    {
+      id = 10460
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10460"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "VIEW_AGGREGATED_DATA"
+    },
+    {
+      id = 10461
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10461"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "VIEW_DEV_TOOLS"
+    },
+    {
+      id = 10462
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10462"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "VIEW_READONLY_WORKFLOW"
+    },
+    {
+      id = 10463
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10463"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "VIEW_VOTERS_AND_WATCHERS"
+    },
+    {
+      id = 10464
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10464"
+      holder = {
+        type = "projectRole"
+        parameter = "10003"
+        additionalProperties = {
+          projectRole = jira.ProjectRole.instance.atlassian_addons_project_access@b
+        }
+      }
+      permission = "WORK_ON_ISSUES"
+    },
+    {
+      id = 10005
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10005"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "BROWSE_PROJECTS"
+    },
+    {
+      id = 10006
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10006"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "CREATE_ISSUES"
+    },
+    {
+      id = 10007
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10007"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "ADD_COMMENTS"
+    },
+    {
+      id = 10008
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10008"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "CREATE_ATTACHMENTS"
+    },
+    {
+      id = 10009
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10009"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "ASSIGN_ISSUES"
+    },
+    {
+      id = 10010
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10010"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "ASSIGNABLE_USER"
+    },
+    {
+      id = 10011
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10011"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "RESOLVE_ISSUES"
+    },
+    {
+      id = 10012
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10012"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "LINK_ISSUES"
+    },
+    {
+      id = 10013
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10013"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "EDIT_ISSUES"
+    },
+    {
+      id = 10015
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10015"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "CLOSE_ISSUES"
+    },
+    {
+      id = 10016
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10016"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "MOVE_ISSUES"
+    },
+    {
+      id = 10017
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10017"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "SCHEDULE_ISSUES"
+    },
+    {
+      id = 10019
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10019"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "WORK_ON_ISSUES"
+    },
+    {
+      id = 10021
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10021"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "DELETE_OWN_WORKLOGS"
+    },
+    {
+      id = 10023
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10023"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "EDIT_OWN_WORKLOGS"
+    },
+    {
+      id = 10024
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10024"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "VIEW_VOTERS_AND_WATCHERS"
+    },
+    {
+      id = 10027
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10027"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "EDIT_OWN_COMMENTS"
+    },
+    {
+      id = 10029
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10029"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "DELETE_OWN_COMMENTS"
+    },
+    {
+      id = 10031
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10031"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "DELETE_OWN_ATTACHMENTS"
+    },
+    {
+      id = 10033
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10033"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "VIEW_DEV_TOOLS"
+    },
+    {
+      id = 10200
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10200"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "VIEW_READONLY_WORKFLOW"
+    },
+    {
+      id = 10300
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10300"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "TRANSITION_ISSUES"
+    },
+    {
+      id = 10430
+      self = "https://geoffr.atlassian.net/rest/api/3/permissionscheme/0/permission/10430"
+      holder = {
+        type = "applicationRole"
+      }
+      permission = "VIEW_AGGREGATED_DATA"
+    },
+  ]
+}

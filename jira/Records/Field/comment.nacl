@@ -1,0 +1,10 @@
+jira.Field comment {
+  id = "comment"
+  name = "Comment"
+  schema = {
+    type = "comments-page"
+    system = "comment"
+  }
+  description = ""
+  key = "comment"
+}

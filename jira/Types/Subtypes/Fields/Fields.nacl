@@ -1,0 +1,18 @@
+type jira.Fields {
+  string summary {
+  }
+  jira.StatusDetails status {
+  }
+  jira.Priority priority {
+  }
+  jira.UserDetails assignee {
+  }
+  jira.TimeTrackingDetails timetracking {
+  }
+  jira.IssueTypeDetails issuetype {
+  }
+  jira.IssueTypeDetails issueType {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

@@ -1,0 +1,6 @@
+type jira.AttachmentArchiveImpl {
+  "List<jira.AttachmentArchiveEntry>" entries {
+  }
+  number totalEntryCount {
+  }
+}

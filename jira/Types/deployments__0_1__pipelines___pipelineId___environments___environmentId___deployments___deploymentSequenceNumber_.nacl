@@ -1,0 +1,32 @@
+type jira.deployments__0_1__pipelines___pipelineId___environments___environmentId___deployments___deploymentSequenceNumber_@uuvuuuu_00123_00125uuuu_00123_00125uuuu_00123_00125 {
+  number deploymentSequenceNumber {
+  }
+  number updateSequenceNumber {
+  }
+  "List<string>" issueKeys {
+  }
+  "List<jira.deployments__0_1__pipelines___pipelineId___environments___environmentId___deployments___deploymentSequenceNumber__associations@uuvuuuu_00123_00125uuuu_00123_00125uuuu_00123_00125u>" associations {
+  }
+  string displayName {
+  }
+  string url {
+  }
+  string description {
+  }
+  string lastUpdated {
+  }
+  string label {
+  }
+  string state {
+  }
+  jira.deployments__0_1__pipelines___pipelineId___environments___environmentId___deployments___deploymentSequenceNumber__pipeline@uuvuuuu_00123_00125uuuu_00123_00125uuuu_00123_00125u pipeline {
+  }
+  jira.deployments__0_1__pipelines___pipelineId___environments___environmentId___deployments___deploymentSequenceNumber__environment@uuvuuuu_00123_00125uuuu_00123_00125uuuu_00123_00125u environment {
+  }
+  "List<jira.deployments__0_1__pipelines___pipelineId___environments___environmentId___deployments___deploymentSequenceNumber__commands@uuvuuuu_00123_00125uuuu_00123_00125uuuu_00123_00125u>" commands {
+  }
+  string schemaVersion {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

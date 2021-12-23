@@ -1,0 +1,4 @@
+type jira.HistoryMetadata_extraData {
+  "Map<string>" additionalProperties {
+  }
+}

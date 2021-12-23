@@ -1,0 +1,7 @@
+jira.StatusCategory No_Category@s {
+  self = "https://geoffr.atlassian.net/rest/api/3/statuscategory/1"
+  id = 1
+  key = "undefined"
+  colorName = "medium-gray"
+  name = "No Category"
+}

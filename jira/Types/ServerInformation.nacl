@@ -1,0 +1,22 @@
+type jira.ServerInformation {
+  string baseUrl {
+  }
+  string version {
+  }
+  "List<number>" versionNumbers {
+  }
+  string deploymentType {
+  }
+  number buildNumber {
+  }
+  string buildDate {
+  }
+  string serverTime {
+  }
+  string scmInfo {
+  }
+  string serverTitle {
+  }
+  "List<jira.HealthCheckResult>" healthChecks {
+  }
+}

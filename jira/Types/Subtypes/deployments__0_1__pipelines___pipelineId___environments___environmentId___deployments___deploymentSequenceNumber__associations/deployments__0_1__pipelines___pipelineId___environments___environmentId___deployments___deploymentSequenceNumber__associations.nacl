@@ -1,0 +1,8 @@
+type jira.deployments__0_1__pipelines___pipelineId___environments___environmentId___deployments___deploymentSequenceNumber__associations@uuvuuuu_00123_00125uuuu_00123_00125uuuu_00123_00125u {
+  string associationType {
+  }
+  "List<string>" values {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

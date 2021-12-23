@@ -1,0 +1,6 @@
+type jira.Transitions {
+  string expand {
+  }
+  "List<jira.IssueTransition>" transitions {
+  }
+}

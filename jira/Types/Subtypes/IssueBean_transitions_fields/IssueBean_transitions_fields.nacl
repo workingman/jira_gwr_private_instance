@@ -1,0 +1,4 @@
+type jira.IssueBean_transitions_fields {
+  "Map<jira.IssueBean_transitions_fields_additionalProperties>" additionalProperties {
+  }
+}

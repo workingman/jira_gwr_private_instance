@@ -1,0 +1,11 @@
+jira.Field customfield_10027 {
+  id = "customfield_10027"
+  name = "Location"
+  schema = {
+    type = "any"
+    custom = "com.atlassian.jconnect.jconnect-plugin:location"
+    customId = 10027
+  }
+  description = "Adding both UUID and Location fields to a project, will enable JIRA Mobile Connect for that project."
+  key = "customfield_10027"
+}

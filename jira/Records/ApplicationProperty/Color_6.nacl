@@ -1,0 +1,7 @@
+jira.ApplicationProperty Color_6@s {
+  id = "jira.lf.gadget.color6"
+  key = "jira.lf.gadget.color6"
+  value = "#654982"
+  name = "Color 6"
+  type = "colour"
+}

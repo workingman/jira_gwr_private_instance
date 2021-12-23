@@ -1,0 +1,12 @@
+type jira.AssociatedItemBean {
+  string id {
+  }
+  string name {
+  }
+  string typeName {
+  }
+  string parentId {
+  }
+  string parentName {
+  }
+}

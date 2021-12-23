@@ -1,0 +1,8 @@
+type jira.builds__0_1__pipelines___pipelineId___builds___buildNumber__references@uuvuuuu_00123_00125uuuu_00123_00125u {
+  jira.builds__0_1__pipelines___pipelineId___builds___buildNumber__references_commit@uuvuuuu_00123_00125uuuu_00123_00125uu commit {
+  }
+  jira.builds__0_1__pipelines___pipelineId___builds___buildNumber__references_ref@uuvuuuu_00123_00125uuuu_00123_00125uu ref {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

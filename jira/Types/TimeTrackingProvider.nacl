@@ -1,0 +1,8 @@
+type jira.TimeTrackingProvider {
+  string key {
+  }
+  string name {
+  }
+  string url {
+  }
+}

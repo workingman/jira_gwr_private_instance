@@ -1,0 +1,24 @@
+type jira.Board {
+  number id {
+  }
+  string self {
+  }
+  string name {
+  }
+  string type {
+  }
+  jira.Board_admins admins {
+  }
+  jira.Board_location location {
+  }
+  boolean canEdit {
+  }
+  boolean isPrivate {
+  }
+  boolean favourite {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+  "List<jira.agile__1_0__board___boardId___configuration@uuvuuuu_00123_00125uu>" config {
+  }
+}

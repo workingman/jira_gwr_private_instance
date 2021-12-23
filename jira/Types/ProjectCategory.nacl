@@ -1,0 +1,12 @@
+type jira.ProjectCategory {
+  string self {
+  }
+  string id {
+  }
+  string name {
+  }
+  string description {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

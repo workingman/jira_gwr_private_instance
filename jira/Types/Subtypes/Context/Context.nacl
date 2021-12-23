@@ -1,0 +1,8 @@
+type jira.Context {
+  number id {
+  }
+  string name {
+  }
+  jira.Scope scope {
+  }
+}

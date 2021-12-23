@@ -1,0 +1,277 @@
+jira.FieldConfigurationDetails Default_Field_Configuration@s {
+  id = 10000
+  name = "Default Field Configuration"
+  description = "The default field configuration"
+  isDefault = true
+  fields = [
+    {
+      id = "summary"
+      isHidden = false
+      isRequired = true
+    },
+    {
+      id = "issuetype"
+      isHidden = false
+      isRequired = true
+    },
+    {
+      id = "security"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "priority"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "duedate"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "components"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "versions"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "fixVersions"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "assignee"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "reporter"
+      isHidden = false
+      isRequired = true
+    },
+    {
+      id = "environment"
+      description = "For example operating system, software platform and/or hardware specifications (include as appropriate for the issue)."
+      isHidden = false
+      isRequired = false
+      renderer = "wiki-renderer"
+    },
+    {
+      id = "description"
+      isHidden = false
+      isRequired = false
+      renderer = "wiki-renderer"
+    },
+    {
+      id = "timetracking"
+      description = "An estimate of how much work remains until this issue will be resolved.<br>The format of this is ' *w *d *h *m ' (representing weeks, days, hours and minutes - where * can be any number)<br>Examples: 4d, 5h 30m, 60m and 3w.<br>"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "resolution"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "attachment"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "comment"
+      isHidden = false
+      isRequired = false
+      renderer = "wiki-renderer"
+    },
+    {
+      id = "labels"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "worklog"
+      description = "Allows work to be logged whilst creating, editing or transitioning issues."
+      isHidden = false
+      isRequired = false
+      renderer = "wiki-renderer"
+    },
+    {
+      id = "issuelinks"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10000"
+      description = "Includes development summary panel information used in JQL"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10001"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10002"
+      description = "Stores the organizations that are associated with a Service Desk customer portal requests. This custom field is created programmatically and required by Service Desk."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10003"
+      description = "Contains users needed for approval. This custom field was created by Jira Service Desk."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10004"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10005"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10006"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10007"
+      description = "Choose the reason for the change request"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10008"
+      description = "Enter when the change actually started."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10009"
+      description = "Enter when the change actually ended."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10010"
+      description = "Holds information about which Service Desk was used to create a ticket. This custom field is created programmatically and must not be modified."
+      isHidden = false
+      isRequired = false
+      renderer = "text-renderer"
+    },
+    {
+      id = "customfield_10011"
+      description = "Provide a short name to identify this epic."
+      isHidden = false
+      isRequired = true
+      renderer = "text-renderer"
+    },
+    {
+      id = "customfield_10012"
+      description = "Epic Status field for Jira Software use only."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10013"
+      description = "Epic Color field for Jira Software use only."
+      isHidden = false
+      isRequired = false
+      renderer = "text-renderer"
+    },
+    {
+      id = "customfield_10014"
+      description = "Choose an epic to assign this issue to."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10015"
+      description = "Allows the planned start date for a piece of work to be set."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10016"
+      description = "Measurement of complexity and/or size of a requirement."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10017"
+      description = ""
+      isHidden = false
+      isRequired = false
+      renderer = "text-renderer"
+    },
+    {
+      id = "customfield_10018"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10019"
+      description = "Global rank field for Jira Software use only."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10020"
+      description = "Jira Software sprint field"
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10021"
+      description = "Allows to flag issues with impediments."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10022"
+      description = "The targeted start date. This custom field is created and required by Advanced Roadmaps for Jira."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10023"
+      description = "The targeted end date. This custom field is created and required by Advanced Roadmaps for Jira."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10024"
+      description = ""
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10025"
+      description = ""
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10026"
+      description = "Adding both UUID and Location fields to a project, will enable JIRA Mobile Connect for that project."
+      isHidden = false
+      isRequired = false
+    },
+    {
+      id = "customfield_10027"
+      description = "Adding both UUID and Location fields to a project, will enable JIRA Mobile Connect for that project."
+      isHidden = false
+      isRequired = false
+    },
+  ]
+}

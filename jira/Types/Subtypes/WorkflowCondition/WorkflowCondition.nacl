@@ -1,0 +1,14 @@
+type jira.WorkflowCondition {
+  string type {
+  }
+  unknown configuration {
+  }
+  string nodeType {
+  }
+  string operator {
+  }
+  "List<jira.WorkflowCondition>" conditions {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

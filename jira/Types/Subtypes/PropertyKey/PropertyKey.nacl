@@ -1,0 +1,6 @@
+type jira.PropertyKey {
+  string self {
+  }
+  string key {
+  }
+}

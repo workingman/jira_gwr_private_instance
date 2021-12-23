@@ -1,0 +1,16 @@
+type jira.HistoryMetadataParticipant {
+  string id {
+  }
+  string displayName {
+  }
+  string displayNameKey {
+  }
+  string type {
+  }
+  string avatarUrl {
+  }
+  string url {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

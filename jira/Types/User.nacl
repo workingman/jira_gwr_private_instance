@@ -1,0 +1,32 @@
+type jira.User {
+  string self {
+  }
+  string key {
+  }
+  string accountId {
+  }
+  string accountType {
+  }
+  string name {
+  }
+  string emailAddress {
+  }
+  jira.AvatarUrlsBean avatarUrls {
+  }
+  string displayName {
+  }
+  boolean active {
+  }
+  string timeZone {
+  }
+  string locale {
+  }
+  jira.SimpleListWrapperGroupName groups {
+  }
+  jira.SimpleListWrapperApplicationRole applicationRoles {
+  }
+  string expand {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

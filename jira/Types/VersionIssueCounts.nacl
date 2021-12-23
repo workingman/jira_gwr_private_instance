@@ -1,0 +1,12 @@
+type jira.VersionIssueCounts {
+  string self {
+  }
+  number issuesFixedCount {
+  }
+  number issuesAffectedCount {
+  }
+  number issueCountWithCustomFieldsShowingVersion {
+  }
+  "List<jira.VersionUsageInCustomField>" customFieldUsage {
+  }
+}

@@ -1,0 +1,10 @@
+type jira.WorkflowRules {
+  "List<jira.WorkflowTransitionRule>" conditions {
+  }
+  jira.WorkflowCondition conditionsTree {
+  }
+  "List<jira.WorkflowTransitionRule>" validators {
+  }
+  "List<jira.WorkflowTransitionRule>" postFunctions {
+  }
+}

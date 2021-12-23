@@ -1,0 +1,16 @@
+type jira.agile__1_0__board___boardId___quickfilter_values@uuvuuuu_00123_00125uuu {
+  number id {
+  }
+  number boardId {
+  }
+  string name {
+  }
+  string jql {
+  }
+  string description {
+  }
+  number position {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

@@ -1,0 +1,14 @@
+type jira.agile__1_0__board@uuvuu {
+  number maxResults {
+  }
+  number startAt {
+  }
+  number total {
+  }
+  boolean isLast {
+  }
+  "List<jira.Board>" values {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

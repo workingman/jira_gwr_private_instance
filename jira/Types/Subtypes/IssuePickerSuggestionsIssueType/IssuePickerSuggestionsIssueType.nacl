@@ -1,0 +1,12 @@
+type jira.IssuePickerSuggestionsIssueType {
+  string label {
+  }
+  string sub {
+  }
+  string id {
+  }
+  string msg {
+  }
+  "List<jira.SuggestedIssue>" issues {
+  }
+}

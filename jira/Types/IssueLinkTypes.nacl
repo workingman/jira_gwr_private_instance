@@ -1,0 +1,4 @@
+type jira.IssueLinkTypes {
+  "List<jira.IssueLinkType>" issueLinkTypes {
+  }
+}

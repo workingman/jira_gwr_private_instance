@@ -1,0 +1,6 @@
+type jira.WorkflowId {
+  string name {
+  }
+  boolean draft {
+  }
+}

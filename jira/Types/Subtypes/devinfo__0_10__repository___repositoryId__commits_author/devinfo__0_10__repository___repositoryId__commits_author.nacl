@@ -1,0 +1,14 @@
+type jira.devinfo__0_10__repository___repositoryId__commits_author@uuvuuuu_00123_00125uu {
+  string name {
+  }
+  string email {
+  }
+  string username {
+  }
+  string url {
+  }
+  string avatar {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

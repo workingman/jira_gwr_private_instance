@@ -1,0 +1,8 @@
+type jira.Board_admins_groups {
+  string name {
+  }
+  string self {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

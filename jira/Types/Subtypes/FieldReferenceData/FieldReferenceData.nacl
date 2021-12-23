@@ -1,0 +1,18 @@
+type jira.FieldReferenceData {
+  string value {
+  }
+  string displayName {
+  }
+  string orderable {
+  }
+  string searchable {
+  }
+  string auto {
+  }
+  string cfid {
+  }
+  "List<string>" operators {
+  }
+  "List<string>" types {
+  }
+}

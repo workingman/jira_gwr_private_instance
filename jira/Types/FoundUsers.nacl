@@ -1,0 +1,8 @@
+type jira.FoundUsers {
+  "List<jira.UserPickerUser>" users {
+  }
+  number total {
+  }
+  string header {
+  }
+}

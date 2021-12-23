@@ -1,0 +1,10 @@
+jira.Field reporter {
+  id = "reporter"
+  name = "Reporter"
+  schema = {
+    type = "user"
+    system = "reporter"
+  }
+  description = ""
+  key = "reporter"
+}

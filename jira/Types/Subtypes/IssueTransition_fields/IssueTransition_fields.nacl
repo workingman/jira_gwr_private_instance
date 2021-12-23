@@ -1,0 +1,4 @@
+type jira.IssueTransition_fields {
+  "Map<jira.FieldMetadata>" additionalProperties {
+  }
+}

@@ -1,0 +1,8 @@
+type jira.remotelinks__1_0__remotelink___remoteLinkId__status@uuvuuuu_00123_00125u {
+  string appearance {
+  }
+  string label {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

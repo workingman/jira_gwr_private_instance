@@ -1,0 +1,10 @@
+type jira.ScreenableTab {
+  number id {
+  }
+  string name {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+  "List<jira.ScreenableField>" fields {
+  }
+}

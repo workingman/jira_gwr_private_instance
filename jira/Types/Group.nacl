@@ -1,0 +1,10 @@
+type jira.Group {
+  string name {
+  }
+  string self {
+  }
+  jira.PagedListUserDetailsApplicationUser users {
+  }
+  string expand {
+  }
+}

@@ -1,0 +1,7 @@
+jira.WorkflowScheme classic {
+  id = 10000
+  name = "classic"
+  description = "classic"
+  defaultWorkflow = "classic default workflow"
+  self = "https://geoffr.atlassian.net/rest/api/3/workflowscheme/10000"
+}

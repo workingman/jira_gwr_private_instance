@@ -1,0 +1,4 @@
+type jira.ErrorCollection_errors {
+  "Map<string>" additionalProperties {
+  }
+}

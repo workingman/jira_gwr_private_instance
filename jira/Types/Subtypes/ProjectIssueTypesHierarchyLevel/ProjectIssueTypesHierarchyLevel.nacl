@@ -1,0 +1,10 @@
+type jira.ProjectIssueTypesHierarchyLevel {
+  string entityId {
+  }
+  number level {
+  }
+  string name {
+  }
+  "List<jira.IssueTypeInfo>" issueTypes {
+  }
+}

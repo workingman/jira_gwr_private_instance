@@ -1,0 +1,8 @@
+type jira.UserMigrationBean {
+  string key {
+  }
+  string username {
+  }
+  string accountId {
+  }
+}

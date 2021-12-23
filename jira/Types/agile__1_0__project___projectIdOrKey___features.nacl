@@ -1,0 +1,6 @@
+type jira.agile__1_0__project___projectIdOrKey___features@uuvuuuu_00123_00125uu {
+  "List<jira.agile__1_0__project___projectIdOrKey___features_features@uuvuuuu_00123_00125uuu>" features {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

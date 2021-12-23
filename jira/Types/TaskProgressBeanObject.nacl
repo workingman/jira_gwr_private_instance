@@ -1,0 +1,28 @@
+type jira.TaskProgressBeanObject {
+  string self {
+  }
+  string id {
+  }
+  string description {
+  }
+  string status {
+  }
+  string message {
+  }
+  unknown result {
+  }
+  number submittedBy {
+  }
+  number progress {
+  }
+  number elapsedRuntime {
+  }
+  number submitted {
+  }
+  number started {
+  }
+  number finished {
+  }
+  number lastUpdate {
+  }
+}

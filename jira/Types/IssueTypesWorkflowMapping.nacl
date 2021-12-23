@@ -1,0 +1,10 @@
+type jira.IssueTypesWorkflowMapping {
+  string workflow {
+  }
+  "List<string>" issueTypes {
+  }
+  boolean defaultMapping {
+  }
+  boolean updateDraftIfNeeded {
+  }
+}

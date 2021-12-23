@@ -1,0 +1,28 @@
+type jira.remotelinks__1_0__remotelink___remoteLinkId_@uuvuuuu_00123_00125 {
+  string schemaVersion {
+  }
+  string id {
+  }
+  number updateSequenceNumber {
+  }
+  string displayName {
+  }
+  string url {
+  }
+  string type {
+  }
+  string description {
+  }
+  string lastUpdated {
+  }
+  "List<jira.remotelinks__1_0__remotelink___remoteLinkId__associations@uuvuuuu_00123_00125u>" associations {
+  }
+  jira.remotelinks__1_0__remotelink___remoteLinkId__status@uuvuuuu_00123_00125u status {
+  }
+  "List<string>" actionIds {
+  }
+  jira.remotelinks__1_0__remotelink___remoteLinkId__attributeMap@uuvuuuu_00123_00125u attributeMap {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

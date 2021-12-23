@@ -1,0 +1,14 @@
+type jira.RemoteIssueLink {
+  number id {
+  }
+  string self {
+  }
+  string globalId {
+  }
+  jira.Application application {
+  }
+  string relationship {
+  }
+  jira.RemoteObject object {
+  }
+}

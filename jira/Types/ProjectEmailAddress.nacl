@@ -1,0 +1,6 @@
+type jira.ProjectEmailAddress {
+  string emailAddress {
+  }
+  "List<string>" emailAddressStatus {
+  }
+}

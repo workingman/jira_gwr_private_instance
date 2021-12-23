@@ -1,0 +1,24 @@
+type jira.agile__1_0__board___boardId___configuration@uuvuuuu_00123_00125uu {
+  number id {
+  }
+  string name {
+  }
+  string type {
+  }
+  string self {
+  }
+  jira.agile__1_0__board___boardId___configuration_location@uuvuuuu_00123_00125uuu location {
+  }
+  jira.agile__1_0__board___boardId___configuration_filter@uuvuuuu_00123_00125uuu filter {
+  }
+  jira.agile__1_0__board___boardId___configuration_subQuery@uuvuuuu_00123_00125uuu subQuery {
+  }
+  jira.agile__1_0__board___boardId___configuration_columnConfig@uuvuuuu_00123_00125uuu columnConfig {
+  }
+  jira.agile__1_0__board___boardId___configuration_estimation@uuvuuuu_00123_00125uuu estimation {
+  }
+  jira.agile__1_0__board___boardId___configuration_ranking@uuvuuuu_00123_00125uuu ranking {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

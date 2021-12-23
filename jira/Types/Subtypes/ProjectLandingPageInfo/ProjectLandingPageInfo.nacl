@@ -1,0 +1,14 @@
+type jira.ProjectLandingPageInfo {
+  string url {
+  }
+  string projectKey {
+  }
+  string projectType {
+  }
+  number boardId {
+  }
+  boolean simplified {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

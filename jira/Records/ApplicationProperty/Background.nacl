@@ -1,0 +1,8 @@
+jira.ApplicationProperty Background {
+  id = "jira.lf.navigation.bgcolour"
+  key = "jira.lf.navigation.bgcolour"
+  value = "#FFFFFF"
+  name = "Background"
+  desc = "The background color of the main navigation bar"
+  type = "colour"
+}

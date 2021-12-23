@@ -1,0 +1,14 @@
+type jira.IssueTypeScheme {
+  string id {
+  }
+  string name {
+  }
+  string description {
+  }
+  string defaultIssueTypeId {
+  }
+  boolean isDefault {
+  }
+  "List<jira.IssueTypeSchemeMapping>" issueTypes {
+  }
+}

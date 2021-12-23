@@ -1,0 +1,14 @@
+type jira.UserPickerUser {
+  string accountId {
+  }
+  string name {
+  }
+  string key {
+  }
+  string html {
+  }
+  string displayName {
+  }
+  string avatarUrl {
+  }
+}

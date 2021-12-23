@@ -1,0 +1,6 @@
+type jira.agile__1_0__board___boardId___reports@uuvuuuu_00123_00125uu {
+  "List<jira.agile__1_0__board___boardId___reports_reports@uuvuuuu_00123_00125uuu>" reports {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

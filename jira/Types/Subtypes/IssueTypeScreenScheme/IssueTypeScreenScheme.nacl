@@ -1,0 +1,10 @@
+type jira.IssueTypeScreenScheme {
+  string id {
+  }
+  string name {
+  }
+  string description {
+  }
+  "List<jira.IssueTypeScreenSchemeItem>" items {
+  }
+}

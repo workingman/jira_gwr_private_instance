@@ -1,0 +1,8 @@
+type jira.featureflags__0_1__flag___featureFlagId__details_environment@uuvuuuu_00123_00125uu {
+  string name {
+  }
+  string type {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

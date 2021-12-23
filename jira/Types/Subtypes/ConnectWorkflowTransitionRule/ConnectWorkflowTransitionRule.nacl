@@ -1,0 +1,10 @@
+type jira.ConnectWorkflowTransitionRule {
+  string id {
+  }
+  string key {
+  }
+  jira.RuleConfiguration configuration {
+  }
+  jira.WorkflowTransition transition {
+  }
+}

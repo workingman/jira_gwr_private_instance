@@ -1,0 +1,20 @@
+type jira.featureflags__0_1__flag___featureFlagId_@uuvuuuu_00123_00125 {
+  string schemaVersion {
+  }
+  string id {
+  }
+  string key {
+  }
+  number updateSequenceId {
+  }
+  string displayName {
+  }
+  "List<string>" issueKeys {
+  }
+  jira.featureflags__0_1__flag___featureFlagId__summary@uuvuuuu_00123_00125u summary {
+  }
+  "List<jira.featureflags__0_1__flag___featureFlagId__details@uuvuuuu_00123_00125u>" details {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

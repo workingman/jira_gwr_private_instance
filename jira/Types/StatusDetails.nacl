@@ -1,0 +1,16 @@
+type jira.StatusDetails {
+  string self {
+  }
+  string description {
+  }
+  string iconUrl {
+  }
+  string name {
+  }
+  string id {
+  }
+  jira.StatusCategory statusCategory {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

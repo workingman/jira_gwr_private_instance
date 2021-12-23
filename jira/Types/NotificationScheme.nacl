@@ -1,0 +1,16 @@
+type jira.NotificationScheme {
+  string expand {
+  }
+  number id {
+  }
+  string self {
+  }
+  string name {
+  }
+  string description {
+  }
+  "List<jira.NotificationSchemeEvent>" notificationSchemeEvents {
+  }
+  jira.Scope scope {
+  }
+}

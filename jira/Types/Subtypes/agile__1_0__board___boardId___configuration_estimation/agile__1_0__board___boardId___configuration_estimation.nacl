@@ -1,0 +1,8 @@
+type jira.agile__1_0__board___boardId___configuration_estimation@uuvuuuu_00123_00125uuu {
+  string type {
+  }
+  jira.agile__1_0__board___boardId___configuration_estimation_field@uuvuuuu_00123_00125uuuu field {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

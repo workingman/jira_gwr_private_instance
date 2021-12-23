@@ -1,0 +1,20 @@
+jira.ApplicationRole Jira_Software@s {
+  key = "jira-software"
+  groups = [
+    "jira-software-users-geoffr",
+    "atlassian-addons-admin",
+    "site-admins",
+  ]
+  name = "Jira Software"
+  defaultGroups = [
+    "jira-software-users-geoffr",
+  ]
+  selectedByDefault = false
+  defined = true
+  numberOfSeats = 10
+  remainingSeats = 9
+  userCount = 1
+  userCountDescription = "user"
+  hasUnlimitedSeats = false
+  platform = false
+}

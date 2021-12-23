@@ -1,0 +1,6 @@
+type jira.PermissionGrants {
+  "List<jira.PermissionGrant>" permissions {
+  }
+  string expand {
+  }
+}

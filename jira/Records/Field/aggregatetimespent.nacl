@@ -1,0 +1,10 @@
+jira.Field aggregatetimespent {
+  id = "aggregatetimespent"
+  name = "Σ Time Spent"
+  schema = {
+    type = "number"
+    system = "aggregatetimespent"
+  }
+  description = ""
+  key = "aggregatetimespent"
+}

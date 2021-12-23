@@ -1,0 +1,18 @@
+type jira.devinfo__0_10__repository___repositoryId__branches@uuvuuuu_00123_00125u {
+  string id {
+  }
+  "List<string>" issueKeys {
+  }
+  number updateSequenceId {
+  }
+  string name {
+  }
+  jira.devinfo__0_10__repository___repositoryId__branches_lastCommit@uuvuuuu_00123_00125uu lastCommit {
+  }
+  string createPullRequestUrl {
+  }
+  string url {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

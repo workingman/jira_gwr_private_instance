@@ -1,0 +1,16 @@
+type jira.JsonTypeBean {
+  string type {
+  }
+  string items {
+  }
+  string system {
+  }
+  string custom {
+  }
+  number customId {
+  }
+  jira.JsonTypeBean_configuration configuration {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

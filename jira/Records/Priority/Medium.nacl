@@ -1,0 +1,8 @@
+jira.Priority Medium {
+  self = "https://geoffr.atlassian.net/rest/api/3/priority/3"
+  statusColor = "#f79232"
+  description = "Has the potential to affect progress."
+  iconUrl = "https://geoffr.atlassian.net/images/icons/priorities/medium.svg"
+  name = "Medium"
+  id = "3"
+}

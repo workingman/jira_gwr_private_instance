@@ -1,0 +1,7 @@
+jira.StatusCategory In_Progress@s {
+  self = "https://geoffr.atlassian.net/rest/api/3/statuscategory/4"
+  id = 4
+  key = "indeterminate"
+  colorName = "yellow"
+  name = "In Progress"
+}

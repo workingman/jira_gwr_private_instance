@@ -1,0 +1,7 @@
+jira.StatusCategory Done {
+  self = "https://geoffr.atlassian.net/rest/api/3/statuscategory/3"
+  id = 3
+  key = "done"
+  colorName = "green"
+  name = "Done"
+}

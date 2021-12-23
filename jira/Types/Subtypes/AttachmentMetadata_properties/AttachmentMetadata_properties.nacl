@@ -1,0 +1,4 @@
+type jira.AttachmentMetadata_properties {
+  "Map<unknown>" additionalProperties {
+  }
+}

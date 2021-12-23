@@ -1,0 +1,10 @@
+jira.Field assignee {
+  id = "assignee"
+  name = "Assignee"
+  schema = {
+    type = "user"
+    system = "assignee"
+  }
+  description = ""
+  key = "assignee"
+}

@@ -1,0 +1,14 @@
+type jira.SharePermission {
+  number id {
+  }
+  string type {
+  }
+  jira.Project project {
+  }
+  jira.ProjectRole role {
+  }
+  jira.GroupName group {
+  }
+  jira.UserBean user {
+  }
+}

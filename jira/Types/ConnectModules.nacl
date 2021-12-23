@@ -1,0 +1,6 @@
+type jira.ConnectModules {
+  "List<jira.ConnectModule>" modules {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

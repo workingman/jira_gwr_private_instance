@@ -1,0 +1,32 @@
+type jira.devinfo__0_10__repository___repositoryId__pullRequests@uuvuuuu_00123_00125u {
+  string id {
+  }
+  "List<string>" issueKeys {
+  }
+  number updateSequenceId {
+  }
+  string status {
+  }
+  string title {
+  }
+  jira.devinfo__0_10__repository___repositoryId__pullRequests_author@uuvuuuu_00123_00125uu author {
+  }
+  number commentCount {
+  }
+  string sourceBranch {
+  }
+  string sourceBranchUrl {
+  }
+  string lastUpdate {
+  }
+  string destinationBranch {
+  }
+  "List<jira.devinfo__0_10__repository___repositoryId__pullRequests_reviewers@uuvuuuu_00123_00125uu>" reviewers {
+  }
+  string url {
+  }
+  string displayId {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

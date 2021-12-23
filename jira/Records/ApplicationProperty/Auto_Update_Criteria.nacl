@@ -1,0 +1,8 @@
+jira.ApplicationProperty Auto_Update_Criteria@s {
+  id = "jira.issuenav.criteria.autoupdate"
+  key = "jira.issuenav.criteria.autoupdate"
+  value = "true"
+  name = "Auto Update Criteria"
+  desc = "Turn on to update search results automatically"
+  type = "boolean"
+}

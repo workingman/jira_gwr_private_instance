@@ -1,0 +1,11 @@
+jira.Field versions {
+  id = "versions"
+  name = "Affects versions"
+  schema = {
+    type = "array"
+    items = "version"
+    system = "versions"
+  }
+  description = ""
+  key = "versions"
+}

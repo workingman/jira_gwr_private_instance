@@ -1,0 +1,6 @@
+type jira.CustomFieldOption {
+  string self {
+  }
+  string value {
+  }
+}

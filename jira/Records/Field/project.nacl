@@ -1,0 +1,10 @@
+jira.Field project {
+  id = "project"
+  name = "Project"
+  schema = {
+    type = "project"
+    system = "project"
+  }
+  description = ""
+  key = "project"
+}

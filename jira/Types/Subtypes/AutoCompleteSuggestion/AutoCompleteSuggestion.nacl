@@ -1,0 +1,6 @@
+type jira.AutoCompleteSuggestion {
+  string value {
+  }
+  string displayName {
+  }
+}

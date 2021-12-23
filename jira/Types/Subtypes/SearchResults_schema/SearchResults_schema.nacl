@@ -1,0 +1,4 @@
+type jira.SearchResults_schema {
+  "Map<jira.JsonTypeBean>" additionalProperties {
+  }
+}

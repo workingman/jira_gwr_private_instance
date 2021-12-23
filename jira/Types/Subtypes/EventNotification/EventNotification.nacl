@@ -1,0 +1,20 @@
+type jira.EventNotification {
+  string expand {
+  }
+  number id {
+  }
+  string notificationType {
+  }
+  string parameter {
+  }
+  jira.GroupName group {
+  }
+  jira.FieldDetails field {
+  }
+  string emailAddress {
+  }
+  jira.ProjectRole projectRole {
+  }
+  jira.UserDetails user {
+  }
+}

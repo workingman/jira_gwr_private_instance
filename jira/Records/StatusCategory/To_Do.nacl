@@ -1,0 +1,7 @@
+jira.StatusCategory To_Do@s {
+  self = "https://geoffr.atlassian.net/rest/api/3/statuscategory/2"
+  id = 2
+  key = "new"
+  colorName = "blue-gray"
+  name = "To Do"
+}

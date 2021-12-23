@@ -1,0 +1,6 @@
+type jira.FieldConfigurationSchemeProjects {
+  jira.FieldConfigurationScheme fieldConfigurationScheme {
+  }
+  "List<string>" projectIds {
+  }
+}

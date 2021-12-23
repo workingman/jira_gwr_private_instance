@@ -1,0 +1,16 @@
+type jira.PageBeanUserDetails {
+  string self {
+  }
+  string nextPage {
+  }
+  number maxResults {
+  }
+  number startAt {
+  }
+  number total {
+  }
+  boolean isLast {
+  }
+  "List<jira.UserDetails>" values {
+  }
+}

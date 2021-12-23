@@ -1,0 +1,18 @@
+type jira.SearchResults {
+  string expand {
+  }
+  number startAt {
+  }
+  number maxResults {
+  }
+  number total {
+  }
+  "List<jira.IssueBean>" issues {
+  }
+  "List<string>" warningMessages {
+  }
+  jira.SearchResults_names names {
+  }
+  jira.SearchResults_schema schema {
+  }
+}

@@ -1,0 +1,4 @@
+type jira.SystemAvatars {
+  "List<jira.Avatar>" system {
+  }
+}

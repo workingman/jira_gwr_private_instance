@@ -1,0 +1,6 @@
+type jira.IssueFieldOptionConfiguration {
+  jira.IssueFieldOptionScopeBean scope {
+  }
+  "List<string>" attributes {
+  }
+}

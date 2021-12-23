@@ -1,0 +1,20 @@
+type jira.agile__1_0__project___projectIdOrKey___features_features@uuvuuuu_00123_00125uuu {
+  string boardFeature {
+  }
+  number boardId {
+  }
+  string state {
+  }
+  string localisedName {
+  }
+  string localisedDescription {
+  }
+  string learnMoreLink {
+  }
+  string imageUri {
+  }
+  boolean toggleLocked {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

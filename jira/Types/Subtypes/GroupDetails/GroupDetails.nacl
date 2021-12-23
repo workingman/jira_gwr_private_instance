@@ -1,0 +1,6 @@
+type jira.GroupDetails {
+  string name {
+  }
+  string groupId {
+  }
+}

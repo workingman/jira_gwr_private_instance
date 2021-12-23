@@ -1,0 +1,11 @@
+jira.IssueTypeScreenScheme Default_Issue_Type_Screen_Scheme@s {
+  id = "1"
+  name = "Default Issue Type Screen Scheme"
+  description = "The default issue type screen scheme"
+  items = [
+    {
+      issueTypeId = "default"
+      screenSchemeId = jira.ScreenScheme.instance.Default_Screen_Scheme@s
+    },
+  ]
+}

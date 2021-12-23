@@ -1,0 +1,16 @@
+type jira.SimpleLink {
+  string id {
+  }
+  string styleClass {
+  }
+  string iconClass {
+  }
+  string label {
+  }
+  string title {
+  }
+  string href {
+  }
+  number weight {
+  }
+}

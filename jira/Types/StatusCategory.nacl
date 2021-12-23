@@ -1,0 +1,14 @@
+type jira.StatusCategory {
+  string self {
+  }
+  number id {
+  }
+  string key {
+  }
+  string colorName {
+  }
+  string name {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

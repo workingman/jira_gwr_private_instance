@@ -1,0 +1,18 @@
+type jira.DeprecatedWorkflow {
+  string name {
+  }
+  string description {
+  }
+  string lastModifiedDate {
+  }
+  string lastModifiedUser {
+  }
+  string lastModifiedUserAccountId {
+  }
+  number steps {
+  }
+  jira.Scope scope {
+  }
+  boolean default {
+  }
+}

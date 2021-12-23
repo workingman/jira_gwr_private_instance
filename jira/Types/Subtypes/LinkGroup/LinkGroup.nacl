@@ -1,0 +1,14 @@
+type jira.LinkGroup {
+  string id {
+  }
+  string styleClass {
+  }
+  jira.SimpleLink header {
+  }
+  number weight {
+  }
+  "List<jira.SimpleLink>" links {
+  }
+  "List<jira.LinkGroup>" groups {
+  }
+}

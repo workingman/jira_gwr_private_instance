@@ -1,0 +1,18 @@
+type jira.PermissionScheme {
+  string expand {
+  }
+  number id {
+  }
+  string self {
+  }
+  string name {
+  }
+  string description {
+  }
+  jira.Scope scope {
+  }
+  "List<jira.PermissionGrant>" permissions {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

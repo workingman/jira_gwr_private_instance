@@ -1,0 +1,6 @@
+type jira.ColumnItem {
+  string label {
+  }
+  string value {
+  }
+}

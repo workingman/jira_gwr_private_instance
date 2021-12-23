@@ -1,0 +1,10 @@
+type jira.WorkflowTransitionRules {
+  jira.WorkflowId workflowId {
+  }
+  "List<jira.ConnectWorkflowTransitionRule>" postFunctions {
+  }
+  "List<jira.ConnectWorkflowTransitionRule>" conditions {
+  }
+  "List<jira.ConnectWorkflowTransitionRule>" validators {
+  }
+}

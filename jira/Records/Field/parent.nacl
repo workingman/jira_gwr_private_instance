@@ -1,0 +1,6 @@
+jira.Field parent {
+  id = "parent"
+  name = "Parent"
+  description = ""
+  key = "parent"
+}

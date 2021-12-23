@@ -1,0 +1,10 @@
+type jira.featureflags__0_1__flag___featureFlagId__summary@uuvuuuu_00123_00125u {
+  string url {
+  }
+  jira.featureflags__0_1__flag___featureFlagId__summary_status@uuvuuuu_00123_00125uu status {
+  }
+  string lastUpdated {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

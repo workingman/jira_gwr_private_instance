@@ -1,0 +1,20 @@
+type jira.Transition {
+  string id {
+  }
+  string name {
+  }
+  string description {
+  }
+  "List<string>" from {
+  }
+  string to {
+  }
+  string type {
+  }
+  jira.TransitionScreenDetails screen {
+  }
+  jira.WorkflowRules rules {
+  }
+  jira.Transition_properties properties {
+  }
+}

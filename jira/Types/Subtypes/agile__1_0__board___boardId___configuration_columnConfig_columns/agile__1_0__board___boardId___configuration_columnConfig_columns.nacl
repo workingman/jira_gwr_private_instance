@@ -1,0 +1,12 @@
+type jira.agile__1_0__board___boardId___configuration_columnConfig_columns@uuvuuuu_00123_00125uuuu {
+  string name {
+  }
+  "List<jira.agile__1_0__board___boardId___configuration_columnConfig_columns_statuses@uuvuuuu_00123_00125uuuuu>" statuses {
+  }
+  number min {
+  }
+  number max {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

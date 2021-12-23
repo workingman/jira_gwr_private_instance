@@ -1,0 +1,12 @@
+type jira.devinfo__0_10__repository___repositoryId__pullRequests_reviewers@uuvuuuu_00123_00125uu {
+  string name {
+  }
+  string approvalStatus {
+  }
+  string url {
+  }
+  string avatar {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

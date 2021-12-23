@@ -1,0 +1,16 @@
+type jira.Priority {
+  string self {
+  }
+  string statusColor {
+  }
+  string description {
+  }
+  string iconUrl {
+  }
+  string name {
+  }
+  string id {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

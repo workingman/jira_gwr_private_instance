@@ -1,0 +1,4 @@
+type jira.IssueTypeIssueCreateMetadata_fields {
+  "Map<jira.FieldMetadata>" additionalProperties {
+  }
+}

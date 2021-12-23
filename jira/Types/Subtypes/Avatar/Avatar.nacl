@@ -1,0 +1,16 @@
+type jira.Avatar {
+  string id {
+  }
+  string owner {
+  }
+  boolean isSystemAvatar {
+  }
+  boolean isSelected {
+  }
+  boolean isDeletable {
+  }
+  string fileName {
+  }
+  jira.Avatar_urls urls {
+  }
+}

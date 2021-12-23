@@ -1,0 +1,26 @@
+type jira.IssueBean_transitions {
+  string id {
+  }
+  string name {
+  }
+  unknown to {
+  }
+  boolean hasScreen {
+  }
+  boolean isGlobal {
+  }
+  boolean isInitial {
+  }
+  boolean isAvailable {
+  }
+  boolean isConditional {
+  }
+  jira.IssueBean_transitions_fields fields {
+  }
+  string expand {
+  }
+  boolean looped {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

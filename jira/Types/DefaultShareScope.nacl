@@ -1,0 +1,4 @@
+type jira.DefaultShareScope {
+  string scope {
+  }
+}

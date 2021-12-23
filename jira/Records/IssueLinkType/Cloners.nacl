@@ -1,0 +1,7 @@
+jira.IssueLinkType Cloners {
+  id = "10001"
+  name = "Cloners"
+  inward = "is cloned by"
+  outward = "clones"
+  self = "https://geoffr.atlassian.net/rest/api/3/issueLinkType/10001"
+}

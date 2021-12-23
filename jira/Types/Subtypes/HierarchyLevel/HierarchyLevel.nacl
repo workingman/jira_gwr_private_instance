@@ -1,0 +1,20 @@
+type jira.HierarchyLevel {
+  number id {
+  }
+  string name {
+  }
+  number aboveLevelId {
+  }
+  number belowLevelId {
+  }
+  number projectConfigurationId {
+  }
+  number level {
+  }
+  "List<number>" issueTypeIds {
+  }
+  string externalUuid {
+  }
+  string globalHierarchyLevel {
+  }
+}

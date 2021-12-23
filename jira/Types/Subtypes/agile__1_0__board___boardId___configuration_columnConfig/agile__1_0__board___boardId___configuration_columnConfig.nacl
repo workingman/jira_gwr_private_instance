@@ -1,0 +1,8 @@
+type jira.agile__1_0__board___boardId___configuration_columnConfig@uuvuuuu_00123_00125uuu {
+  "List<jira.agile__1_0__board___boardId___configuration_columnConfig_columns@uuvuuuu_00123_00125uuuu>" columns {
+  }
+  string constraintType {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

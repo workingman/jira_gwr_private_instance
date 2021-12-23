@@ -1,0 +1,10 @@
+jira.Field resolutiondate {
+  id = "resolutiondate"
+  name = "Resolved"
+  schema = {
+    type = "datetime"
+    system = "resolutiondate"
+  }
+  description = ""
+  key = "resolutiondate"
+}

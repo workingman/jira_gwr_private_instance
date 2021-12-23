@@ -1,0 +1,8 @@
+type jira.FailedWebhooks {
+  "List<jira.FailedWebhook>" values {
+  }
+  number maxResults {
+  }
+  string next {
+  }
+}

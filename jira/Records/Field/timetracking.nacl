@@ -1,0 +1,10 @@
+jira.Field timetracking {
+  id = "timetracking"
+  name = "Time tracking"
+  schema = {
+    type = "timetracking"
+    system = "timetracking"
+  }
+  description = ""
+  key = "timetracking"
+}

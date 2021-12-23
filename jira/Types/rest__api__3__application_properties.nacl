@@ -1,0 +1,4 @@
+type jira.rest__api__3__application_properties@uuuuuub {
+  "List<jira.ApplicationProperty>" items {
+  }
+}

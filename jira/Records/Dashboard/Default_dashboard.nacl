@@ -1,0 +1,13 @@
+jira.Dashboard Default_dashboard@s {
+  id = "10000"
+  name = "Default dashboard"
+  popularity = 0
+  self = "https://geoffr.atlassian.net/rest/api/3/dashboard/10000"
+  sharePermissions = [
+    {
+      id = 1
+      type = "global"
+    },
+  ]
+  view = "https://geoffr.atlassian.net/secure/Dashboard.jspa?selectPageId=10000"
+}

@@ -1,0 +1,10 @@
+type jira.CustomFieldContextOption {
+  string id {
+  }
+  string value {
+  }
+  string optionId {
+  }
+  boolean disabled {
+  }
+}

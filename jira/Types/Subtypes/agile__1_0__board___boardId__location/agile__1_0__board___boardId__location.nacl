@@ -1,0 +1,22 @@
+type jira.agile__1_0__board___boardId__location@uuvuuuu_00123_00125u {
+  number projectId {
+  }
+  number userId {
+  }
+  string userAccountId {
+  }
+  string displayName {
+  }
+  string projectName {
+  }
+  string projectKey {
+  }
+  string projectTypeKey {
+  }
+  string avatarURI {
+  }
+  string name {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

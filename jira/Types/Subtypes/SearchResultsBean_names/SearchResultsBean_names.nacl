@@ -1,0 +1,4 @@
+type jira.SearchResultsBean_names {
+  "Map<string>" additionalProperties {
+  }
+}

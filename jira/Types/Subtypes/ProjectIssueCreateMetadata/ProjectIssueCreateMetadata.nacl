@@ -1,0 +1,16 @@
+type jira.ProjectIssueCreateMetadata {
+  string expand {
+  }
+  string self {
+  }
+  string id {
+  }
+  string key {
+  }
+  string name {
+  }
+  jira.AvatarUrlsBean avatarUrls {
+  }
+  "List<jira.IssueTypeIssueCreateMetadata>" issuetypes {
+  }
+}

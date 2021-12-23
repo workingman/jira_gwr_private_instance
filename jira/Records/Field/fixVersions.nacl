@@ -1,0 +1,11 @@
+jira.Field fixVersions {
+  id = "fixVersions"
+  name = "Fix versions"
+  schema = {
+    type = "array"
+    items = "version"
+    system = "fixVersions"
+  }
+  description = ""
+  key = "fixVersions"
+}

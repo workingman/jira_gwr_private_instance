@@ -1,0 +1,12 @@
+type jira.IssueTypeWithStatus {
+  string self {
+  }
+  string id {
+  }
+  string name {
+  }
+  boolean subtask {
+  }
+  "List<jira.StatusDetails>" statuses {
+  }
+}

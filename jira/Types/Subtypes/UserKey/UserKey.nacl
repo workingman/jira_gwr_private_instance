@@ -1,0 +1,6 @@
+type jira.UserKey {
+  string key {
+  }
+  string accountId {
+  }
+}

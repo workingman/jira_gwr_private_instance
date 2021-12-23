@@ -1,0 +1,6 @@
+type jira.UnrestrictedUserEmail {
+  string accountId {
+  }
+  string email {
+  }
+}

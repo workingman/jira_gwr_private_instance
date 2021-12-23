@@ -1,0 +1,8 @@
+type jira.FieldConfigurationDetails {
+  string name {
+  }
+  string description {
+  }
+  "List<jira.FieldConfigurationItem>" fields {
+  }
+}

@@ -1,0 +1,18 @@
+type jira.ProjectFeature {
+  number projectId {
+  }
+  string state {
+  }
+  boolean toggleLocked {
+  }
+  string feature {
+  }
+  "List<string>" prerequisites {
+  }
+  string localisedName {
+  }
+  string localisedDescription {
+  }
+  string imageUri {
+  }
+}

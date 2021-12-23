@@ -1,0 +1,4 @@
+type jira.WorkflowStatus_properties {
+  "Map<unknown>" additionalProperties {
+  }
+}

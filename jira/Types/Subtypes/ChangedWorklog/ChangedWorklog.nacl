@@ -1,0 +1,8 @@
+type jira.ChangedWorklog {
+  number worklogId {
+  }
+  number updatedTime {
+  }
+  "List<jira.EntityProperty>" properties {
+  }
+}

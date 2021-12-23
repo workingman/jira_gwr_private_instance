@@ -1,0 +1,6 @@
+type jira.agile__1_0__board___boardId___configuration_ranking@uuvuuuu_00123_00125uuu {
+  number rankCustomFieldId {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

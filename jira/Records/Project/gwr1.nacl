@@ -1,0 +1,92 @@
+jira.Project gwr1 {
+  self = "https://geoffr.atlassian.net/rest/api/3/project/10000"
+  id = "10000"
+  key = "GWR1"
+  description = ""
+  lead = {
+    self = "https://geoffr.atlassian.net/rest/api/3/user?accountId=557058:d969077c-986a-4263-af97-517000a5b3c5"
+    accountId = "557058:d969077c-986a-4263-af97-517000a5b3c5"
+    accountType = "atlassian"
+    avatarUrls = {
+      "48x48" = "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:d969077c-986a-4263-af97-517000a5b3c5/d6661d4b-ed4f-4f5a-aeeb-7e2a95df5a51/48"
+      "24x24" = "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:d969077c-986a-4263-af97-517000a5b3c5/d6661d4b-ed4f-4f5a-aeeb-7e2a95df5a51/24"
+      "16x16" = "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:d969077c-986a-4263-af97-517000a5b3c5/d6661d4b-ed4f-4f5a-aeeb-7e2a95df5a51/16"
+      "32x32" = "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:d969077c-986a-4263-af97-517000a5b3c5/d6661d4b-ed4f-4f5a-aeeb-7e2a95df5a51/32"
+    }
+    displayName = "Geoffrey Routledge"
+    active = true
+  }
+  issueTypes = [
+    {
+      self = "https://geoffr.atlassian.net/rest/api/3/issuetype/10001"
+      id = "10001"
+      description = "Stories track functionality or features expressed as user goals."
+      iconUrl = "https://geoffr.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype"
+      name = "Story"
+      subtask = false
+      avatarId = 10315
+      hierarchyLevel = 0
+    },
+    {
+      self = "https://geoffr.atlassian.net/rest/api/3/issuetype/10002"
+      id = "10002"
+      description = "Tasks track small, distinct pieces of work."
+      iconUrl = "https://geoffr.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype"
+      name = "Task"
+      subtask = false
+      avatarId = 10318
+      hierarchyLevel = 0
+    },
+    {
+      self = "https://geoffr.atlassian.net/rest/api/3/issuetype/10003"
+      id = "10003"
+      description = "Bugs track problems or errors."
+      iconUrl = "https://geoffr.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype"
+      name = "Bug"
+      subtask = false
+      avatarId = 10303
+      hierarchyLevel = 0
+    },
+    {
+      self = "https://geoffr.atlassian.net/rest/api/3/issuetype/10004"
+      id = "10004"
+      description = "Epics track collections of related bugs, stories, and tasks."
+      iconUrl = "https://geoffr.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype"
+      name = "Epic"
+      subtask = false
+      avatarId = 10307
+      hierarchyLevel = 1
+    },
+    {
+      self = "https://geoffr.atlassian.net/rest/api/3/issuetype/10005"
+      id = "10005"
+      description = "Subtasks track small pieces of work that are part of a larger task."
+      iconUrl = "https://geoffr.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype"
+      name = "Subtask"
+      subtask = true
+      avatarId = 10316
+      hierarchyLevel = -1
+    },
+  ]
+  name = "gwr1"
+  avatarUrls = {
+    "48x48" = "https://geoffr.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10422"
+    "24x24" = "https://geoffr.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10422?size=small"
+    "16x16" = "https://geoffr.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10422?size=xsmall"
+    "32x32" = "https://geoffr.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10422?size=medium"
+  }
+  projectTypeKey = "software"
+  simplified = true
+  style = "next-gen"
+  isPrivate = false
+  permissions = {
+    canEdit = true
+  }
+  uuid = "895a46bd-36f8-41db-80b9-a269ee0c59f8"
+  additionalProperties = {
+    projectKeys = [
+      "GWR1",
+    ]
+    entityId = "895a46bd-36f8-41db-80b9-a269ee0c59f8"
+  }
+}

@@ -1,0 +1,12 @@
+type jira.VersionIssuesStatus {
+  number unmapped {
+  }
+  number toDo {
+  }
+  number inProgress {
+  }
+  number done {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

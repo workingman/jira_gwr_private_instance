@@ -1,0 +1,10 @@
+type jira.FunctionReferenceData {
+  string value {
+  }
+  string displayName {
+  }
+  string isList {
+  }
+  "List<string>" types {
+  }
+}

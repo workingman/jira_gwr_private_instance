@@ -1,0 +1,24 @@
+type jira.Workflow {
+  jira.PublishedWorkflowId id {
+  }
+  string description {
+  }
+  "List<jira.Transition>" transitions {
+  }
+  "List<jira.WorkflowStatus>" statuses {
+  }
+  boolean isDefault {
+  }
+  "List<jira.WorkflowSchemeIdName>" schemes {
+  }
+  "List<jira.ProjectDetails>" projects {
+  }
+  boolean hasDraftWorkflow {
+  }
+  jira.WorkflowOperations operations {
+  }
+  string created {
+  }
+  string updated {
+  }
+}

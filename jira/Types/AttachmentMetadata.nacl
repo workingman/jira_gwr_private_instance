@@ -1,0 +1,24 @@
+type jira.AttachmentMetadata {
+  number id {
+  }
+  string self {
+  }
+  string filename {
+  }
+  jira.User author {
+  }
+  string created {
+  }
+  number size {
+  }
+  string mimeType {
+  }
+  jira.AttachmentMetadata_properties properties {
+  }
+  string content {
+  }
+  string thumbnail {
+  }
+  string mediaApiFileId {
+  }
+}

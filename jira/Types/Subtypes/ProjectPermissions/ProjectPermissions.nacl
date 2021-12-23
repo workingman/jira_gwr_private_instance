@@ -1,0 +1,6 @@
+type jira.ProjectPermissions {
+  boolean canEdit {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

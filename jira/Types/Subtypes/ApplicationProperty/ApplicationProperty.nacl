@@ -1,0 +1,20 @@
+type jira.ApplicationProperty {
+  string id {
+  }
+  string key {
+  }
+  string value {
+  }
+  string name {
+  }
+  string desc {
+  }
+  string type {
+  }
+  string defaultValue {
+  }
+  string example {
+  }
+  "List<string>" allowedValues {
+  }
+}

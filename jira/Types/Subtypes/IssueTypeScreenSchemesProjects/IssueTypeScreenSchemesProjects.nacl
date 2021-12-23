@@ -1,0 +1,6 @@
+type jira.IssueTypeScreenSchemesProjects {
+  jira.IssueTypeScreenScheme issueTypeScreenScheme {
+  }
+  "List<string>" projectIds {
+  }
+}

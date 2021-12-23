@@ -1,0 +1,6 @@
+type jira.ScreenableField {
+  string id {
+  }
+  string name {
+  }
+}

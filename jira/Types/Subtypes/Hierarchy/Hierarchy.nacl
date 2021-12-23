@@ -1,0 +1,8 @@
+type jira.Hierarchy {
+  number baseLevelId {
+  }
+  "List<jira.HierarchyLevel>" levels {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

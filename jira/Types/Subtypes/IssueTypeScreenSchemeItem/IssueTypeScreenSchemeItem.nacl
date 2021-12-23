@@ -1,0 +1,8 @@
+type jira.IssueTypeScreenSchemeItem {
+  string issueTypeScreenSchemeId {
+  }
+  string issueTypeId {
+  }
+  string screenSchemeId {
+  }
+}

@@ -1,0 +1,4 @@
+type jira.IssueBean_fields {
+  "Map<unknown>" additionalProperties {
+  }
+}

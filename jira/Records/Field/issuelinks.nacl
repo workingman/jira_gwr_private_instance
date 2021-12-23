@@ -1,0 +1,11 @@
+jira.Field issuelinks {
+  id = "issuelinks"
+  name = "Linked Issues"
+  schema = {
+    type = "array"
+    items = "issuelinks"
+    system = "issuelinks"
+  }
+  description = ""
+  key = "issuelinks"
+}

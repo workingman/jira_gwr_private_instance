@@ -1,0 +1,10 @@
+jira.Field watches {
+  id = "watches"
+  name = "Watchers"
+  schema = {
+    type = "watches"
+    system = "watches"
+  }
+  description = ""
+  key = "watches"
+}

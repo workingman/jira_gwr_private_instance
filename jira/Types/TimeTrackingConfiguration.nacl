@@ -1,0 +1,12 @@
+type jira.TimeTrackingConfiguration {
+  number workingHoursPerDay {
+  }
+  number workingDaysPerWeek {
+  }
+  string timeFormat {
+  }
+  string defaultUnit {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

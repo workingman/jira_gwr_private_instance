@@ -1,0 +1,8 @@
+type jira.ChangedValueBean {
+  string fieldName {
+  }
+  string changedFrom {
+  }
+  string changedTo {
+  }
+}

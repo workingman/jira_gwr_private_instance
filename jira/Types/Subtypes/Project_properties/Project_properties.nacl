@@ -1,0 +1,4 @@
+type jira.Project_properties {
+  "Map<unknown>" additionalProperties {
+  }
+}

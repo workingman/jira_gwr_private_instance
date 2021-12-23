@@ -1,0 +1,14 @@
+type jira.PageOfDashboards {
+  number startAt {
+  }
+  number maxResults {
+  }
+  number total {
+  }
+  string prev {
+  }
+  string next {
+  }
+  "List<jira.Dashboard>" dashboards {
+  }
+}

@@ -1,0 +1,46 @@
+type jira.CustomFieldContextDefaultValue {
+  string contextId {
+  }
+  string optionId {
+  }
+  string cascadingOptionId {
+  }
+  string type {
+  }
+  "List<string>" optionIds {
+  }
+  string accountId {
+  }
+  jira.UserFilter userFilter {
+  }
+  "List<string>" accountIds {
+  }
+  string groupId {
+  }
+  "List<string>" groupIds {
+  }
+  string date {
+  }
+  boolean useCurrent {
+  }
+  string dateTime {
+  }
+  string url {
+  }
+  string projectId {
+  }
+  number number {
+  }
+  "List<string>" labels {
+  }
+  string text {
+  }
+  string versionId {
+  }
+  string versionOrder {
+  }
+  "List<string>" versionIds {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

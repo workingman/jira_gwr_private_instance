@@ -1,0 +1,7 @@
+jira.ApplicationProperty Header_Highlight_Background_Color@s {
+  id = "jira.lf.top.hilightcolour"
+  key = "jira.lf.top.hilightcolour"
+  value = "#296CA3"
+  name = "Header Highlight Background Color"
+  type = "colour"
+}

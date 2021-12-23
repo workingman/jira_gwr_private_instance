@@ -1,0 +1,11 @@
+jira.Field attachment {
+  id = "attachment"
+  name = "Attachment"
+  schema = {
+    type = "array"
+    items = "attachment"
+    system = "attachment"
+  }
+  description = ""
+  key = "attachment"
+}

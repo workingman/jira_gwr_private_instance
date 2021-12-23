@@ -1,0 +1,14 @@
+type jira.devinfo__0_10__repository___repositoryId__branches_lastCommit_files@uuvuuuu_00123_00125uuu {
+  string path {
+  }
+  string url {
+  }
+  string changeType {
+  }
+  number linesAdded {
+  }
+  number linesRemoved {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

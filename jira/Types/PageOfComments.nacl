@@ -1,0 +1,12 @@
+type jira.PageOfComments {
+  number startAt {
+  }
+  number maxResults {
+  }
+  number total {
+  }
+  "List<jira.Comment>" comments {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

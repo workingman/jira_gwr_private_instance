@@ -1,0 +1,8 @@
+type jira.Visibility {
+  string type {
+  }
+  string value {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

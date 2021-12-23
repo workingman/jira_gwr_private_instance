@@ -1,0 +1,6 @@
+jira.Field thumbnail {
+  id = "thumbnail"
+  name = "Images"
+  description = ""
+  key = "thumbnail"
+}

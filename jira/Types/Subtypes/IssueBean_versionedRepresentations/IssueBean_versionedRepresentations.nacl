@@ -1,0 +1,4 @@
+type jira.IssueBean_versionedRepresentations {
+  "Map<jira.IssueBean_versionedRepresentations_additionalProperties>" additionalProperties {
+  }
+}

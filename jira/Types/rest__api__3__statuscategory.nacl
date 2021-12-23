@@ -1,0 +1,4 @@
+type jira.rest__api__3__statuscategory {
+  "List<jira.StatusCategory>" items {
+  }
+}

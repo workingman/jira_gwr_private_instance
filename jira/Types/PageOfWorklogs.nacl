@@ -1,0 +1,12 @@
+type jira.PageOfWorklogs {
+  number startAt {
+  }
+  number maxResults {
+  }
+  number total {
+  }
+  "List<jira.Worklog>" worklogs {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

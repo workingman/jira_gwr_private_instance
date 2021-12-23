@@ -1,0 +1,12 @@
+type jira.PageOfChangelogs {
+  number startAt {
+  }
+  number maxResults {
+  }
+  number total {
+  }
+  "List<jira.Changelog>" histories {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

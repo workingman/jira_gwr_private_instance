@@ -1,0 +1,6 @@
+type jira.FieldLastUsed {
+  string type {
+  }
+  string value {
+  }
+}

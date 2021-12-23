@@ -1,0 +1,16 @@
+type jira.deployments__0_1__pipelines___pipelineId___environments___environmentId___deployments___deploymentSequenceNumber___gating_status@uuvuuuu_00123_00125uuuu_00123_00125uuuu_00123_00125uub {
+  number deploymentSequenceNumber {
+  }
+  string pipelineId {
+  }
+  string environmentId {
+  }
+  string updatedTimestamp {
+  }
+  string gatingStatus {
+  }
+  "List<jira.deployments__0_1__pipelines___pipelineId___environments___environmentId___deployments___deploymentSequenceNumber___gating_status_details@uuvuuuu_00123_00125uuuu_00123_00125uuuu_00123_00125uubu>" details {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

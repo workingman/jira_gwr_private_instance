@@ -1,0 +1,72 @@
+type jira.Project {
+  string expand {
+  }
+  string self {
+  }
+  string id {
+  }
+  string key {
+  }
+  string description {
+  }
+  jira.User lead {
+  }
+  "List<jira.ComponentWithIssueCount>" components {
+  }
+  "List<jira.IssueTypeDetails>" issueTypes {
+  }
+  string url {
+  }
+  string email {
+  }
+  string assigneeType {
+  }
+  "List<jira.Version>" versions {
+  }
+  string name {
+  }
+  jira.Project_roles roles {
+  }
+  jira.AvatarUrlsBean avatarUrls {
+  }
+  jira.ProjectCategory projectCategory {
+  }
+  string projectTypeKey {
+  }
+  boolean simplified {
+  }
+  string style {
+  }
+  boolean favourite {
+  }
+  boolean isPrivate {
+  }
+  jira.Hierarchy issueTypeHierarchy {
+  }
+  jira.ProjectPermissions permissions {
+  }
+  jira.Project_properties properties {
+  }
+  string uuid {
+  }
+  jira.ProjectInsight insight {
+  }
+  boolean deleted {
+  }
+  string retentionTillDate {
+  }
+  string deletedDate {
+  }
+  jira.User deletedBy {
+  }
+  boolean archived {
+  }
+  string archivedDate {
+  }
+  jira.User archivedBy {
+  }
+  jira.ProjectLandingPageInfo landingPageInfo {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

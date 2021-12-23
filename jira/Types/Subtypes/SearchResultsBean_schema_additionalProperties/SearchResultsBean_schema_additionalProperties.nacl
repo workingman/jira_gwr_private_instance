@@ -1,0 +1,16 @@
+type jira.SearchResultsBean_schema_additionalProperties {
+  string type {
+  }
+  string items {
+  }
+  string system {
+  }
+  string custom {
+  }
+  number customId {
+  }
+  jira.SearchResultsBean_schema_additionalProperties_configuration configuration {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

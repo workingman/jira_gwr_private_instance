@@ -1,0 +1,4 @@
+type jira.License {
+  "List<jira.LicensedApplication>" applications {
+  }
+}

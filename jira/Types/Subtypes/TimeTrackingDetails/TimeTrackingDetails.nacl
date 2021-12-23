@@ -1,0 +1,16 @@
+type jira.TimeTrackingDetails {
+  string originalEstimate {
+  }
+  string remainingEstimate {
+  }
+  string timeSpent {
+  }
+  number originalEstimateSeconds {
+  }
+  number remainingEstimateSeconds {
+  }
+  number timeSpentSeconds {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

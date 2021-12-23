@@ -1,0 +1,6 @@
+type jira.DefaultWorkflow {
+  string workflow {
+  }
+  boolean updateDraftIfNeeded {
+  }
+}

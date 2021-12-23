@@ -1,0 +1,16 @@
+type jira.PageBeanCustomFieldContextDefaultValue {
+  string self {
+  }
+  string nextPage {
+  }
+  number maxResults {
+  }
+  number startAt {
+  }
+  number total {
+  }
+  boolean isLast {
+  }
+  "List<jira.CustomFieldContextDefaultValue>" values {
+  }
+}

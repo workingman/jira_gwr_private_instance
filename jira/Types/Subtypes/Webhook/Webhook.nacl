@@ -1,0 +1,14 @@
+type jira.Webhook {
+  number id {
+  }
+  string jqlFilter {
+  }
+  "List<string>" fieldIdsFilter {
+  }
+  "List<string>" issuePropertyKeysFilter {
+  }
+  "List<string>" events {
+  }
+  number expirationDate {
+  }
+}

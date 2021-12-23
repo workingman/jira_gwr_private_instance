@@ -1,0 +1,16 @@
+type jira.ChangeDetails {
+  string field {
+  }
+  string fieldtype {
+  }
+  string fieldId {
+  }
+  string from {
+  }
+  string fromString {
+  }
+  string to {
+  }
+  string toString {
+  }
+}

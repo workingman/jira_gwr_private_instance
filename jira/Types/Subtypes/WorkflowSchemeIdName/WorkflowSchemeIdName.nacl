@@ -1,0 +1,6 @@
+type jira.WorkflowSchemeIdName {
+  string id {
+  }
+  string name {
+  }
+}

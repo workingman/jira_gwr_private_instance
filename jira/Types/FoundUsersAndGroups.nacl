@@ -1,0 +1,6 @@
+type jira.FoundUsersAndGroups {
+  jira.FoundUsers users {
+  }
+  jira.FoundGroups groups {
+  }
+}

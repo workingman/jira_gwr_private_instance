@@ -1,0 +1,12 @@
+type jira.LinkedIssue {
+  string id {
+  }
+  string key {
+  }
+  string self {
+  }
+  jira.Fields fields {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

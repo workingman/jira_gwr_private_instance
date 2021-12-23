@@ -1,0 +1,14 @@
+type jira.SimpleListWrapperApplicationRole {
+  number size {
+  }
+  "List<jira.ApplicationRole>" items {
+  }
+  jira.ListWrapperCallbackApplicationRole pagingCallback {
+  }
+  jira.ListWrapperCallbackApplicationRole callback {
+  }
+  number "max-results" {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

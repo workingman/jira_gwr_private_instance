@@ -1,0 +1,10 @@
+jira.Field duedate {
+  id = "duedate"
+  name = "Due date"
+  schema = {
+    type = "date"
+    system = "duedate"
+  }
+  description = ""
+  key = "duedate"
+}

@@ -1,0 +1,18 @@
+type jira.agile__1_0__board___boardId__admins_users@uuvuuuu_00123_00125uu {
+  string key {
+  }
+  string self {
+  }
+  string name {
+  }
+  string displayName {
+  }
+  boolean active {
+  }
+  string accountId {
+  }
+  unknown avatarUrls {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

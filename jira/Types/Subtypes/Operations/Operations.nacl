@@ -1,0 +1,6 @@
+type jira.Operations {
+  "List<jira.LinkGroup>" linkGroups {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

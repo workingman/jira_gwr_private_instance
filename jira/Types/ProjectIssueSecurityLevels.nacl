@@ -1,0 +1,4 @@
+type jira.ProjectIssueSecurityLevels {
+  "List<jira.SecurityLevel>" levels {
+  }
+}

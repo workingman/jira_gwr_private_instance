@@ -1,0 +1,12 @@
+type jira.ProjectType {
+  string key {
+  }
+  string formattedKey {
+  }
+  string descriptionI18nKey {
+  }
+  string icon {
+  }
+  string color {
+  }
+}

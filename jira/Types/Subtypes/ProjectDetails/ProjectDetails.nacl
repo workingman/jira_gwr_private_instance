@@ -1,0 +1,20 @@
+type jira.ProjectDetails {
+  string self {
+  }
+  string id {
+  }
+  string key {
+  }
+  string name {
+  }
+  string projectTypeKey {
+  }
+  boolean simplified {
+  }
+  jira.AvatarUrlsBean avatarUrls {
+  }
+  jira.UpdatedProjectCategory projectCategory {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

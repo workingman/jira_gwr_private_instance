@@ -1,0 +1,14 @@
+type jira.RemoteObject {
+  string url {
+  }
+  string title {
+  }
+  string summary {
+  }
+  jira.Icon icon {
+  }
+  jira.Status status {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

@@ -1,0 +1,28 @@
+type jira.devinfo__0_10__repository___repositoryId__commits@uuvuuuu_00123_00125u {
+  string id {
+  }
+  "List<string>" issueKeys {
+  }
+  number updateSequenceId {
+  }
+  string hash {
+  }
+  "List<string>" flags {
+  }
+  string message {
+  }
+  jira.devinfo__0_10__repository___repositoryId__commits_author@uuvuuuu_00123_00125uu author {
+  }
+  number fileCount {
+  }
+  string url {
+  }
+  "List<jira.devinfo__0_10__repository___repositoryId__commits_files@uuvuuuu_00123_00125uu>" files {
+  }
+  string authorTimestamp {
+  }
+  string displayId {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

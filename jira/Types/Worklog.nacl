@@ -1,0 +1,30 @@
+type jira.Worklog {
+  string self {
+  }
+  jira.UserDetails author {
+  }
+  jira.UserDetails updateAuthor {
+  }
+  unknown comment {
+  }
+  string created {
+  }
+  string updated {
+  }
+  jira.Visibility visibility {
+  }
+  string started {
+  }
+  string timeSpent {
+  }
+  number timeSpentSeconds {
+  }
+  string id {
+  }
+  string issueId {
+  }
+  "List<jira.EntityProperty>" properties {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

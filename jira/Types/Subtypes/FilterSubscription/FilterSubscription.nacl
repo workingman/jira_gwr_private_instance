@@ -1,0 +1,8 @@
+type jira.FilterSubscription {
+  number id {
+  }
+  jira.User user {
+  }
+  jira.GroupName group {
+  }
+}

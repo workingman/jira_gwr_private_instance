@@ -1,0 +1,4 @@
+type jira.rest__api__3__applicationrole {
+  "List<jira.ApplicationRole>" items {
+  }
+}

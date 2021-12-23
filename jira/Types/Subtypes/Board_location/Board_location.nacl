@@ -1,0 +1,22 @@
+type jira.Board_location {
+  number projectId {
+  }
+  number userId {
+  }
+  string userAccountId {
+  }
+  string displayName {
+  }
+  string projectName {
+  }
+  string projectKey {
+  }
+  string projectTypeKey {
+  }
+  string avatarURI {
+  }
+  string name {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

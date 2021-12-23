@@ -1,0 +1,8 @@
+type jira.ProjectInsight {
+  number totalIssueCount {
+  }
+  string lastIssueUpdateTime {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

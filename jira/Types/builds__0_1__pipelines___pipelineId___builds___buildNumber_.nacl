@@ -1,0 +1,30 @@
+type jira.builds__0_1__pipelines___pipelineId___builds___buildNumber_@uuvuuuu_00123_00125uuuu_00123_00125 {
+  string schemaVersion {
+  }
+  string pipelineId {
+  }
+  number buildNumber {
+  }
+  number updateSequenceNumber {
+  }
+  string displayName {
+  }
+  string description {
+  }
+  string label {
+  }
+  string url {
+  }
+  string state {
+  }
+  string lastUpdated {
+  }
+  "List<string>" issueKeys {
+  }
+  jira.builds__0_1__pipelines___pipelineId___builds___buildNumber__testInfo@uuvuuuu_00123_00125uuuu_00123_00125u testInfo {
+  }
+  "List<jira.builds__0_1__pipelines___pipelineId___builds___buildNumber__references@uuvuuuu_00123_00125uuuu_00123_00125u>" references {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

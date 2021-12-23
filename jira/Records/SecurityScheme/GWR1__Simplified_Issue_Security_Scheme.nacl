@@ -1,0 +1,5 @@
+jira.SecurityScheme GWR1__Simplified_Issue_Security_Scheme@fssss {
+  self = "https://geoffr.atlassian.net/rest/api/3/issuesecurityschemes/10000"
+  id = 10000
+  name = "GWR1: Simplified Issue Security Scheme"
+}

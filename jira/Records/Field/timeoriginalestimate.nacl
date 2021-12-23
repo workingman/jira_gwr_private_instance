@@ -1,0 +1,10 @@
+jira.Field timeoriginalestimate {
+  id = "timeoriginalestimate"
+  name = "Original estimate"
+  schema = {
+    type = "number"
+    system = "timeoriginalestimate"
+  }
+  description = ""
+  key = "timeoriginalestimate"
+}

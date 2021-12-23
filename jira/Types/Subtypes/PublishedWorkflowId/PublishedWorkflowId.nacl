@@ -1,0 +1,6 @@
+type jira.PublishedWorkflowId {
+  string name {
+  }
+  string entityId {
+  }
+}

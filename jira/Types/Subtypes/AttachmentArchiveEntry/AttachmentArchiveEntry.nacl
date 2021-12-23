@@ -1,0 +1,12 @@
+type jira.AttachmentArchiveEntry {
+  number entryIndex {
+  }
+  string abbreviatedName {
+  }
+  string mediaType {
+  }
+  string name {
+  }
+  number size {
+  }
+}

@@ -1,0 +1,8 @@
+type jira.RuleConfiguration {
+  string value {
+  }
+  boolean disabled {
+  }
+  string tag {
+  }
+}

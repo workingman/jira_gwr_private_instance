@@ -1,0 +1,8 @@
+type jira.GroupLabel {
+  string text {
+  }
+  string title {
+  }
+  string type {
+  }
+}

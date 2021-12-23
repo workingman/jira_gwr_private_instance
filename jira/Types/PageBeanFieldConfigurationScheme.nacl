@@ -1,0 +1,16 @@
+type jira.PageBeanFieldConfigurationScheme {
+  string self {
+  }
+  string nextPage {
+  }
+  number maxResults {
+  }
+  number startAt {
+  }
+  number total {
+  }
+  boolean isLast {
+  }
+  "List<jira.FieldConfigurationScheme>" values {
+  }
+}

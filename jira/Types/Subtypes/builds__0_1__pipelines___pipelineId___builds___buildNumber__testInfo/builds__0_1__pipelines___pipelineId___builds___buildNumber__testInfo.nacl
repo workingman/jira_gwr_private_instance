@@ -1,0 +1,12 @@
+type jira.builds__0_1__pipelines___pipelineId___builds___buildNumber__testInfo@uuvuuuu_00123_00125uuuu_00123_00125u {
+  number totalNumber {
+  }
+  number numberPassed {
+  }
+  number numberFailed {
+  }
+  number numberSkipped {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

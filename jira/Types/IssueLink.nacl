@@ -1,0 +1,12 @@
+type jira.IssueLink {
+  string id {
+  }
+  string self {
+  }
+  jira.IssueLinkType type {
+  }
+  jira.LinkedIssue inwardIssue {
+  }
+  jira.LinkedIssue outwardIssue {
+  }
+}

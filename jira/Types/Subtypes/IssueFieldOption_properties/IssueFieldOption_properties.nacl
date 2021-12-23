@@ -1,0 +1,4 @@
+type jira.IssueFieldOption_properties {
+  "Map<unknown>" additionalProperties {
+  }
+}

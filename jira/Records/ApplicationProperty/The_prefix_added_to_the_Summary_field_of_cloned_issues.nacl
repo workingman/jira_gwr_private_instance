@@ -1,0 +1,7 @@
+jira.ApplicationProperty The_prefix_added_to_the_Summary_field_of_cloned_issues@s {
+  id = "jira.clone.prefix"
+  key = "jira.clone.prefix"
+  value = "CLONE -"
+  name = "The prefix added to the Summary field of cloned issues"
+  type = "string"
+}

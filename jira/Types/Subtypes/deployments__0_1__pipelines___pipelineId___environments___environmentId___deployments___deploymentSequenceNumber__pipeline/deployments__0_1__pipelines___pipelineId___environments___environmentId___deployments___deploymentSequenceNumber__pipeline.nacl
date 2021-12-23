@@ -1,0 +1,10 @@
+type jira.deployments__0_1__pipelines___pipelineId___environments___environmentId___deployments___deploymentSequenceNumber__pipeline@uuvuuuu_00123_00125uuuu_00123_00125uuuu_00123_00125u {
+  string id {
+  }
+  string displayName {
+  }
+  string url {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

@@ -1,0 +1,10 @@
+type jira.WorkflowTransitionProperty {
+  string key {
+  }
+  string value {
+  }
+  string id {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

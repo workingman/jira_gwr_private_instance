@@ -1,0 +1,6 @@
+jira.ProjectRole Administrators {
+  self = "https://geoffr.atlassian.net/rest/api/3/role/10002"
+  name = "Administrators"
+  id = 10002
+  description = "A project role that represents administrators in a project"
+}

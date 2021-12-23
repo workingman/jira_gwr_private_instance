@@ -1,0 +1,10 @@
+type jira.FoundGroup {
+  string name {
+  }
+  string html {
+  }
+  "List<jira.GroupLabel>" labels {
+  }
+  string groupId {
+  }
+}

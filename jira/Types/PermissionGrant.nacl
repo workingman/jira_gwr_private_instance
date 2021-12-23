@@ -1,0 +1,10 @@
+type jira.PermissionGrant {
+  number id {
+  }
+  string self {
+  }
+  jira.PermissionHolder holder {
+  }
+  string permission {
+  }
+}

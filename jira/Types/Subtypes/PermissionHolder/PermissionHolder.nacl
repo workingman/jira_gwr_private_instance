@@ -1,0 +1,10 @@
+type jira.PermissionHolder {
+  string type {
+  }
+  string parameter {
+  }
+  string expand {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

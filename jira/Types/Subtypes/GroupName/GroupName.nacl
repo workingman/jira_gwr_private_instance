@@ -1,0 +1,6 @@
+type jira.GroupName {
+  string name {
+  }
+  string self {
+  }
+}

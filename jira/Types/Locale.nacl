@@ -1,0 +1,4 @@
+type jira.Locale {
+  string locale {
+  }
+}

@@ -1,0 +1,10 @@
+jira.Field description {
+  id = "description"
+  name = "Description"
+  schema = {
+    type = "string"
+    system = "description"
+  }
+  description = ""
+  key = "description"
+}

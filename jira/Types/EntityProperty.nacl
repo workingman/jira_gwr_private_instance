@@ -1,0 +1,6 @@
+type jira.EntityProperty {
+  string key {
+  }
+  unknown value {
+  }
+}

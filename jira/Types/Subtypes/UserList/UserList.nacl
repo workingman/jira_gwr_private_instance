@@ -1,0 +1,14 @@
+type jira.UserList {
+  number size {
+  }
+  "List<jira.User>" items {
+  }
+  number "max-results" {
+  }
+  number "start-index" {
+  }
+  number "end-index" {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

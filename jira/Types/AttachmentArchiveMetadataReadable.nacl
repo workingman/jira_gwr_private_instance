@@ -1,0 +1,12 @@
+type jira.AttachmentArchiveMetadataReadable {
+  number id {
+  }
+  string name {
+  }
+  "List<jira.AttachmentArchiveItemReadable>" entries {
+  }
+  number totalEntryCount {
+  }
+  string mediaType {
+  }
+}

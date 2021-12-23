@@ -1,0 +1,6 @@
+type jira.GlobalScopeBean {
+  "List<string>" attributes {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

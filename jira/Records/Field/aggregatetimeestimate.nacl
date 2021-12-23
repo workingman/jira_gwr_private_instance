@@ -1,0 +1,10 @@
+jira.Field aggregatetimeestimate {
+  id = "aggregatetimeestimate"
+  name = "Σ Remaining Estimate"
+  schema = {
+    type = "number"
+    system = "aggregatetimeestimate"
+  }
+  description = ""
+  key = "aggregatetimeestimate"
+}

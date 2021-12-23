@@ -1,0 +1,14 @@
+type jira.SecurityScheme {
+  string self {
+  }
+  number id {
+  }
+  string name {
+  }
+  string description {
+  }
+  number defaultSecurityLevelId {
+  }
+  "List<jira.SecurityLevel>" levels {
+  }
+}

@@ -1,0 +1,8 @@
+type jira.Board_admins {
+  "List<jira.Board_admins_users>" users {
+  }
+  "List<jira.Board_admins_groups>" groups {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

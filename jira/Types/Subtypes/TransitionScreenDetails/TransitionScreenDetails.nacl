@@ -1,0 +1,6 @@
+type jira.TransitionScreenDetails {
+  string id {
+  }
+  string name {
+  }
+}

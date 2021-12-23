@@ -1,0 +1,524 @@
+jira.Workflow Builds_Workflow@s {
+  id = {
+    name = "Builds Workflow"
+  }
+  description = "Builds Workflow"
+  transitions = [
+    {
+      id = "1"
+      name = "Create Issue"
+      description = ""
+      to = "1"
+      type = "initial"
+      rules = {
+        validators = [
+          {
+            type = "PermissionValidator"
+            configuration = {
+              permissionKey = "CREATE_ISSUES"
+            }
+          },
+        ]
+        postFunctions = [
+          {
+            type = "IssueCreateFunction"
+          },
+          {
+            type = "IssueReindexFunction"
+          },
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = "1"
+                name = "issue_created"
+              }
+            }
+          },
+        ]
+      }
+    },
+    {
+      id = "2"
+      name = "Close Issue"
+      description = ""
+      from = [
+        "1",
+        "3",
+        "4",
+        "400",
+        "401",
+      ]
+      to = "6"
+      type = "directed"
+      rules = {
+        conditionsTree = {
+          nodeType = "compound"
+          operator = "AND"
+          conditions = [
+            {
+              nodeType = "simple"
+              type = "PermissionCondition"
+              configuration = {
+                permissionKey = "RESOLVE_ISSUES"
+              }
+            },
+            {
+              nodeType = "simple"
+              type = "PermissionCondition"
+              configuration = {
+                permissionKey = "CLOSE_ISSUES"
+              }
+            },
+          ]
+        }
+        postFunctions = [
+          {
+            type = "UpdateIssueStatusFunction"
+          },
+          {
+            type = "CreateCommentFunction"
+          },
+          {
+            type = "GenerateChangeHistoryFunction"
+          },
+          {
+            type = "IssueReindexFunction"
+          },
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = "5"
+                name = "issue_closed"
+              }
+            }
+          },
+        ]
+      }
+    },
+    {
+      id = "20"
+      name = "Wait for Build"
+      description = "Wait for Bamboo to build the code for this issue"
+      from = [
+        "1",
+        "3",
+        "4",
+        "401",
+      ]
+      to = "400"
+      type = "directed"
+      rules = {
+        postFunctions = [
+          {
+            type = "UpdateIssueStatusFunction"
+          },
+          {
+            type = "CreateCommentFunction"
+          },
+          {
+            type = "GenerateChangeHistoryFunction"
+          },
+          {
+            type = "IssueReindexFunction"
+          },
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = "13"
+                name = "issue_generic"
+              }
+            }
+          },
+        ]
+      }
+    },
+    {
+      id = "21"
+      name = "Build Passed"
+      description = "The build has passed"
+      from = [
+        "400",
+        "401",
+      ]
+      to = "5"
+      type = "directed"
+      rules = {
+        conditionsTree = {
+          nodeType = "simple"
+          type = "OnlyBambooNotificationsCondition"
+        }
+        postFunctions = [
+          {
+            type = "UpdateIssueStatusFunction"
+          },
+          {
+            type = "CreateCommentFunction"
+          },
+          {
+            type = "GenerateChangeHistoryFunction"
+          },
+          {
+            type = "IssueReindexFunction"
+          },
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = "13"
+                name = "issue_generic"
+              }
+            }
+          },
+        ]
+      }
+    },
+    {
+      id = "22"
+      name = "Build Failed"
+      description = "The build for this issue failed."
+      from = [
+        "400",
+      ]
+      to = "401"
+      type = "directed"
+      rules = {
+        conditionsTree = {
+          nodeType = "simple"
+          type = "OnlyBambooNotificationsCondition"
+        }
+        postFunctions = [
+          {
+            type = "UpdateIssueStatusFunction"
+          },
+          {
+            type = "CreateCommentFunction"
+          },
+          {
+            type = "GenerateChangeHistoryFunction"
+          },
+          {
+            type = "IssueReindexFunction"
+          },
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = "13"
+                name = "issue_generic"
+              }
+            }
+          },
+        ]
+      }
+    },
+    {
+      id = "3"
+      name = "Reopen Issue"
+      description = ""
+      from = [
+        "5",
+        "6",
+      ]
+      to = "4"
+      type = "directed"
+      rules = {
+        conditionsTree = {
+          nodeType = "simple"
+          type = "PermissionCondition"
+          configuration = {
+            permissionKey = "RESOLVE_ISSUES"
+          }
+        }
+        postFunctions = [
+          {
+            type = "UpdateIssueFieldFunction"
+            configuration = {
+              fieldId = "resolution"
+              fieldValue = ""
+            }
+          },
+          {
+            type = "UpdateIssueStatusFunction"
+          },
+          {
+            type = "CreateCommentFunction"
+          },
+          {
+            type = "GenerateChangeHistoryFunction"
+          },
+          {
+            type = "IssueReindexFunction"
+          },
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = "7"
+                name = "issue_reopened"
+              }
+            }
+          },
+        ]
+      }
+    },
+    {
+      id = "301"
+      name = "Stop Progress"
+      description = ""
+      from = [
+        "3",
+      ]
+      to = "1"
+      type = "directed"
+      rules = {
+        conditionsTree = {
+          nodeType = "simple"
+          type = "AllowOnlyAssignee"
+        }
+        postFunctions = [
+          {
+            type = "UpdateIssueFieldFunction"
+            configuration = {
+              fieldId = "resolution"
+              fieldValue = ""
+            }
+          },
+          {
+            type = "UpdateIssueStatusFunction"
+          },
+          {
+            type = "CreateCommentFunction"
+          },
+          {
+            type = "GenerateChangeHistoryFunction"
+          },
+          {
+            type = "IssueReindexFunction"
+          },
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = "12"
+                name = "issue_work_stopped"
+              }
+            }
+          },
+        ]
+      }
+    },
+    {
+      id = "4"
+      name = "Start Progress"
+      description = ""
+      from = [
+        "1",
+        "4",
+        "401",
+      ]
+      to = "3"
+      type = "directed"
+      rules = {
+        conditionsTree = {
+          nodeType = "simple"
+          type = "AllowOnlyAssignee"
+        }
+        postFunctions = [
+          {
+            type = "UpdateIssueFieldFunction"
+            configuration = {
+              fieldId = "resolution"
+              fieldValue = ""
+            }
+          },
+          {
+            type = "UpdateIssueStatusFunction"
+          },
+          {
+            type = "CreateCommentFunction"
+          },
+          {
+            type = "GenerateChangeHistoryFunction"
+          },
+          {
+            type = "IssueReindexFunction"
+          },
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = "11"
+                name = "issue_work_started"
+              }
+            }
+          },
+        ]
+      }
+    },
+    {
+      id = "5"
+      name = "Resolve Issue"
+      description = ""
+      from = [
+        "1",
+        "3",
+        "4",
+        "400",
+        "401",
+      ]
+      to = "5"
+      type = "directed"
+      rules = {
+        conditionsTree = {
+          nodeType = "simple"
+          type = "PermissionCondition"
+          configuration = {
+            permissionKey = "RESOLVE_ISSUES"
+          }
+        }
+        postFunctions = [
+          {
+            type = "UpdateIssueStatusFunction"
+          },
+          {
+            type = "CreateCommentFunction"
+          },
+          {
+            type = "GenerateChangeHistoryFunction"
+          },
+          {
+            type = "IssueReindexFunction"
+          },
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = "4"
+                name = "issue_resolved"
+              }
+            }
+          },
+        ]
+      }
+    },
+    {
+      id = "701"
+      name = "Close Issue"
+      description = "Closing an issue indicates there is no more work to be done on it, and it has been verified as complete."
+      from = [
+        "5",
+      ]
+      to = "6"
+      type = "directed"
+      rules = {
+        conditionsTree = {
+          nodeType = "simple"
+          type = "PermissionCondition"
+          configuration = {
+            permissionKey = "CLOSE_ISSUES"
+          }
+        }
+        postFunctions = [
+          {
+            type = "UpdateIssueStatusFunction"
+          },
+          {
+            type = "CreateCommentFunction"
+          },
+          {
+            type = "GenerateChangeHistoryFunction"
+          },
+          {
+            type = "IssueReindexFunction"
+          },
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = "5"
+                name = "issue_closed"
+              }
+            }
+          },
+        ]
+      }
+    },
+  ]
+  statuses = [
+    {
+      id = "1"
+      name = "Open"
+      properties = {
+        additionalProperties = {
+          jira.issue.editable = "true"
+          issueEditable = true
+        }
+      }
+    },
+    {
+      id = "3"
+      name = "In Progress"
+      properties = {
+        additionalProperties = {
+          jira.issue.editable = "true"
+          issueEditable = true
+        }
+      }
+    },
+    {
+      id = "4"
+      name = "Reopened"
+      properties = {
+        additionalProperties = {
+          jira.issue.editable = "true"
+          issueEditable = true
+        }
+      }
+    },
+    {
+      id = "400"
+      name = "Building"
+      properties = {
+        additionalProperties = {
+          jira.issue.editable = "true"
+          issueEditable = true
+        }
+      }
+    },
+    {
+      id = "401"
+      name = "Build Broken"
+      properties = {
+        additionalProperties = {
+          jira.issue.editable = "true"
+          issueEditable = true
+        }
+      }
+    },
+    {
+      id = "5"
+      name = "Resolved"
+      properties = {
+        additionalProperties = {
+          jira.issue.editable = "true"
+          issueEditable = true
+        }
+      }
+    },
+    {
+      id = "6"
+      name = "Closed"
+      properties = {
+        additionalProperties = {
+          jira.issue.editable = "false"
+          issueEditable = false
+        }
+      }
+    },
+  ]
+  created = "1969-12-31T16:00:00.000-0800"
+  updated = "1969-12-31T16:00:00.000-0800"
+}

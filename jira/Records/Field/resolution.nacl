@@ -1,0 +1,10 @@
+jira.Field resolution {
+  id = "resolution"
+  name = "Resolution"
+  schema = {
+    type = "resolution"
+    system = "resolution"
+  }
+  description = ""
+  key = "resolution"
+}

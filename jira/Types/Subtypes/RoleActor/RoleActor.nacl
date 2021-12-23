@@ -1,0 +1,16 @@
+type jira.RoleActor {
+  number id {
+  }
+  string displayName {
+  }
+  string type {
+  }
+  string name {
+  }
+  string avatarUrl {
+  }
+  jira.ProjectRoleUser actorUser {
+  }
+  jira.ProjectRoleGroup actorGroup {
+  }
+}

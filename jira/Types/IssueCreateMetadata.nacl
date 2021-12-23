@@ -1,0 +1,6 @@
+type jira.IssueCreateMetadata {
+  string expand {
+  }
+  "List<jira.ProjectIssueCreateMetadata>" projects {
+  }
+}

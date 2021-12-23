@@ -1,0 +1,6 @@
+type jira.IssueUpdateMetadata {
+  jira.IssueUpdateMetadata_fields fields {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

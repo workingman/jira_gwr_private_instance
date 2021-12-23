@@ -1,4 +1,8 @@
 envs {
   envsCloud = [
+    {
+      uuid = "1343c025-5a86-4ce1-89c8-8047e4c13126"
+      folderName = "Jira gwr private instance"
+    },
   ]
 }

@@ -1,0 +1,87 @@
+jira.Board GWR1_board@s {
+  id = 1
+  self = "https://geoffr.atlassian.net/rest/agile/1.0/board/1"
+  name = "GWR1 board"
+  type = "simple"
+  admins = {
+    users = [
+      {
+        self = "https://geoffr.atlassian.net/rest/api/2/user?accountId=557058:d969077c-986a-4263-af97-517000a5b3c5"
+        displayName = "Geoffrey Routledge"
+        active = true
+        accountId = "557058:d969077c-986a-4263-af97-517000a5b3c5"
+        avatarUrls = {
+          "16x16" = "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:d969077c-986a-4263-af97-517000a5b3c5/d6661d4b-ed4f-4f5a-aeeb-7e2a95df5a51/16"
+          "24x24" = "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:d969077c-986a-4263-af97-517000a5b3c5/d6661d4b-ed4f-4f5a-aeeb-7e2a95df5a51/24"
+          "32x32" = "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:d969077c-986a-4263-af97-517000a5b3c5/d6661d4b-ed4f-4f5a-aeeb-7e2a95df5a51/32"
+          "48x48" = "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:d969077c-986a-4263-af97-517000a5b3c5/d6661d4b-ed4f-4f5a-aeeb-7e2a95df5a51/48"
+        }
+      },
+    ]
+  }
+  location = {
+    projectId = 10000
+    displayName = "gwr1 (GWR1)"
+    projectName = "gwr1"
+    projectKey = "GWR1"
+    projectTypeKey = "software"
+    avatarURI = "https://geoffr.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10422?size=small"
+    name = "gwr1 (GWR1)"
+  }
+  canEdit = true
+  config = [
+    {
+      id = 1
+      name = "GWR1 board"
+      type = "simple"
+      self = "https://geoffr.atlassian.net/rest/agile/1.0/board/1/configuration"
+      location = jira.Project.instance.gwr1
+      filter = {
+        id = "10000"
+        self = "https://geoffr.atlassian.net/rest/api/2/filter/10000"
+      }
+      columnConfig = {
+        columns = [
+          {
+            name = "To Do"
+            statuses = [
+              {
+                id = "10000"
+                self = "https://geoffr.atlassian.net/rest/api/2/status/10000"
+              },
+            ]
+          },
+          {
+            name = "In Progress"
+            statuses = [
+              {
+                id = "10001"
+                self = "https://geoffr.atlassian.net/rest/api/2/status/10001"
+              },
+            ]
+          },
+          {
+            name = "Done"
+            statuses = [
+              {
+                id = "10002"
+                self = "https://geoffr.atlassian.net/rest/api/2/status/10002"
+              },
+            ]
+          },
+        ]
+        constraintType = "none"
+      }
+      estimation = {
+        type = "field"
+        field = {
+          fieldId = "customfield_10016"
+          displayName = "Story point estimate"
+        }
+      }
+      ranking = {
+        rankCustomFieldId = 10019
+      }
+    },
+  ]
+}

@@ -1,0 +1,10 @@
+type jira.AuditRecords {
+  number offset {
+  }
+  number limit {
+  }
+  number total {
+  }
+  "List<jira.AuditRecordBean>" records {
+  }
+}

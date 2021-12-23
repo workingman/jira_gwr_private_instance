@@ -1,0 +1,6 @@
+jira.Field issuekey {
+  id = "issuekey"
+  name = "Key"
+  description = ""
+  key = "issuekey"
+}

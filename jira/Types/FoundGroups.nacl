@@ -1,0 +1,8 @@
+type jira.FoundGroups {
+  string header {
+  }
+  number total {
+  }
+  "List<jira.FoundGroup>" groups {
+  }
+}

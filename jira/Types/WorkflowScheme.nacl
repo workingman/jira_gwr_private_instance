@@ -1,0 +1,28 @@
+type jira.WorkflowScheme {
+  number id {
+  }
+  string name {
+  }
+  string description {
+  }
+  string defaultWorkflow {
+  }
+  jira.WorkflowScheme_issueTypeMappings issueTypeMappings {
+  }
+  string originalDefaultWorkflow {
+  }
+  jira.WorkflowScheme_originalIssueTypeMappings originalIssueTypeMappings {
+  }
+  boolean draft {
+  }
+  jira.User lastModifiedUser {
+  }
+  string lastModified {
+  }
+  string self {
+  }
+  boolean updateDraftIfNeeded {
+  }
+  jira.WorkflowScheme_issueTypes issueTypes {
+  }
+}

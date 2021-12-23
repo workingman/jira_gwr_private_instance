@@ -1,0 +1,10 @@
+jira.Field summary {
+  id = "summary"
+  name = "Summary"
+  schema = {
+    type = "string"
+    system = "summary"
+  }
+  description = ""
+  key = "summary"
+}

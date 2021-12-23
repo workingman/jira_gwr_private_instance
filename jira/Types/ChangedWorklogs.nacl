@@ -1,0 +1,14 @@
+type jira.ChangedWorklogs {
+  "List<jira.ChangedWorklog>" values {
+  }
+  number since {
+  }
+  number until {
+  }
+  string self {
+  }
+  string nextPage {
+  }
+  boolean lastPage {
+  }
+}

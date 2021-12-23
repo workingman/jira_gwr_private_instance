@@ -1,0 +1,10 @@
+type jira.UserFilter {
+  boolean enabled {
+  }
+  "List<string>" groups {
+  }
+  "List<number>" roleIds {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

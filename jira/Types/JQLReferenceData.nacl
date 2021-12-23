@@ -1,0 +1,8 @@
+type jira.JQLReferenceData {
+  "List<jira.FieldReferenceData>" visibleFieldNames {
+  }
+  "List<jira.FunctionReferenceData>" visibleFunctionNames {
+  }
+  "List<string>" jqlReservedWords {
+  }
+}

@@ -1,0 +1,4 @@
+type jira.ContainerForProjectFeatures {
+  "List<jira.ProjectFeature>" features {
+  }
+}

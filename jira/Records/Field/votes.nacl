@@ -1,0 +1,10 @@
+jira.Field votes {
+  id = "votes"
+  name = "Votes"
+  schema = {
+    type = "votes"
+    system = "votes"
+  }
+  description = ""
+  key = "votes"
+}

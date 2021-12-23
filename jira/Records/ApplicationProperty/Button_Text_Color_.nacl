@@ -1,0 +1,7 @@
+jira.ApplicationProperty Button_Text_Color_@sszd {
+  id = "jira.lf.hero.button.text.colour"
+  key = "jira.lf.hero.button.text.colour"
+  value = "#ffffff"
+  name = "Button Text Color,"
+  type = "colour"
+}

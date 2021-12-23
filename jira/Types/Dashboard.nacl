@@ -1,0 +1,26 @@
+type jira.Dashboard {
+  string description {
+  }
+  string id {
+  }
+  boolean isFavourite {
+  }
+  string name {
+  }
+  jira.UserBean owner {
+  }
+  number popularity {
+  }
+  number rank {
+  }
+  string self {
+  }
+  "List<jira.SharePermission>" sharePermissions {
+  }
+  "List<jira.SharePermission>" editPermissions {
+  }
+  string view {
+  }
+  boolean isWritable {
+  }
+}

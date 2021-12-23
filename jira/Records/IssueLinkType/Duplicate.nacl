@@ -1,0 +1,7 @@
+jira.IssueLinkType Duplicate {
+  id = "10002"
+  name = "Duplicate"
+  inward = "is duplicated by"
+  outward = "duplicates"
+  self = "https://geoffr.atlassian.net/rest/api/3/issueLinkType/10002"
+}

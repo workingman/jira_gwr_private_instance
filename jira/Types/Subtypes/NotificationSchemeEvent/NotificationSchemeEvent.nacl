@@ -1,0 +1,6 @@
+type jira.NotificationSchemeEvent {
+  jira.NotificationEvent event {
+  }
+  "List<jira.EventNotification>" notifications {
+  }
+}

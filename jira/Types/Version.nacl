@@ -1,0 +1,36 @@
+type jira.Version {
+  string expand {
+  }
+  string self {
+  }
+  string id {
+  }
+  string description {
+  }
+  string name {
+  }
+  boolean archived {
+  }
+  boolean released {
+  }
+  string startDate {
+  }
+  string releaseDate {
+  }
+  boolean overdue {
+  }
+  string userStartDate {
+  }
+  string userReleaseDate {
+  }
+  string project {
+  }
+  number projectId {
+  }
+  string moveUnfixedIssuesTo {
+  }
+  "List<jira.SimpleLink>" operations {
+  }
+  jira.VersionIssuesStatus issuesStatusForFixVersion {
+  }
+}

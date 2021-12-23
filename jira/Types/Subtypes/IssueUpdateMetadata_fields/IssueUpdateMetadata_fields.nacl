@@ -1,0 +1,4 @@
+type jira.IssueUpdateMetadata_fields {
+  "Map<jira.FieldMetadata>" additionalProperties {
+  }
+}

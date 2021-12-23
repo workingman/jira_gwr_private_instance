@@ -1,0 +1,12 @@
+type jira.ContextualConfiguration {
+  string id {
+  }
+  number contextId {
+  }
+  string fieldContextId {
+  }
+  unknown configuration {
+  }
+  unknown schema {
+  }
+}

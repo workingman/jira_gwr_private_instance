@@ -1,0 +1,11 @@
+jira.Field labels {
+  id = "labels"
+  name = "Labels"
+  schema = {
+    type = "array"
+    items = "string"
+    system = "labels"
+  }
+  description = ""
+  key = "labels"
+}

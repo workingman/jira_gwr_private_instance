@@ -1,0 +1,203 @@
+jira.Screen Default_Screen@s {
+  id = 1
+  name = "Default Screen"
+  description = "Allows to update all system fields."
+  tabs = [
+    {
+      id = 10000
+      name = "Field Tab"
+      fields = [
+        {
+          id = "summary"
+          name = "Summary"
+        },
+        {
+          id = "issuetype"
+          name = "Issue Type"
+        },
+        {
+          id = "security"
+          name = "Security Level"
+        },
+        {
+          id = "priority"
+          name = "Priority"
+        },
+        {
+          id = "duedate"
+          name = "Due date"
+        },
+        {
+          id = "components"
+          name = "Components"
+        },
+        {
+          id = "versions"
+          name = "Affects versions"
+        },
+        {
+          id = "fixVersions"
+          name = "Fix versions"
+        },
+        {
+          id = "assignee"
+          name = "Assignee"
+        },
+        {
+          id = "reporter"
+          name = "Reporter"
+        },
+        {
+          id = "environment"
+          name = "Environment"
+        },
+        {
+          id = "description"
+          name = "Description"
+        },
+        {
+          id = "timetracking"
+          name = "Time tracking"
+        },
+        {
+          id = "attachment"
+          name = "Attachment"
+        },
+        {
+          id = "labels"
+          name = "Labels"
+        },
+      ]
+    },
+  ]
+  availableFields = [
+    {
+      id = "customfield_10009"
+      name = "Actual end"
+    },
+    {
+      id = "customfield_10008"
+      name = "Actual start"
+    },
+    {
+      id = "customfield_10003"
+      name = "Approvers"
+    },
+    {
+      id = "customfield_10007"
+      name = "Change reason"
+    },
+    {
+      id = "customfield_10006"
+      name = "Change risk"
+    },
+    {
+      id = "customfield_10005"
+      name = "Change type"
+    },
+    {
+      id = "customfield_10000"
+      name = "Development"
+    },
+    {
+      id = "customfield_10013"
+      name = "Epic Color"
+    },
+    {
+      id = "customfield_10014"
+      name = "Epic Link"
+    },
+    {
+      id = "customfield_10011"
+      name = "Epic Name"
+    },
+    {
+      id = "customfield_10012"
+      name = "Epic Status"
+    },
+    {
+      id = "customfield_10021"
+      name = "Flagged"
+    },
+    {
+      id = "customfield_10004"
+      name = "Impact"
+    },
+    {
+      id = "customfield_10017"
+      name = "Issue color"
+    },
+    {
+      id = "issuelinks"
+      name = "Linked Issues"
+    },
+    {
+      id = "customfield_10027"
+      name = "Location"
+    },
+    {
+      id = "worklog"
+      name = "Log Work"
+    },
+    {
+      id = "customfield_10002"
+      name = "Organizations"
+    },
+    {
+      id = "customfield_10018"
+      name = "Parent Link"
+    },
+    {
+      id = "customfield_10019"
+      name = "Rank"
+    },
+    {
+      id = "customfield_10010"
+      name = "Request Type"
+    },
+    {
+      id = "resolution"
+      name = "Resolution"
+    },
+    {
+      id = "issuerestriction"
+      name = "Restrict to"
+    },
+    {
+      id = "customfield_10020"
+      name = "Sprint"
+    },
+    {
+      id = "customfield_10015"
+      name = "Start date"
+    },
+    {
+      id = "customfield_10016"
+      name = "Story point estimate"
+    },
+    {
+      id = "customfield_10023"
+      name = "Target end"
+    },
+    {
+      id = "customfield_10022"
+      name = "Target start"
+    },
+    {
+      id = "customfield_10001"
+      name = "Team"
+    },
+    {
+      id = "customfield_10024"
+      name = "[CHART] Date of First Response"
+    },
+    {
+      id = "customfield_10025"
+      name = "[CHART] Time in Status"
+    },
+    {
+      id = "customfield_10026"
+      name = "uuid"
+    },
+  ]
+}

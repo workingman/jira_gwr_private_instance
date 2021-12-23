@@ -1,0 +1,6 @@
+type jira.LicensedApplication {
+  string id {
+  }
+  string plan {
+  }
+}

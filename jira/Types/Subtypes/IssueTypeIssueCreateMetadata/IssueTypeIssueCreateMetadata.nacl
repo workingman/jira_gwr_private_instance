@@ -1,0 +1,26 @@
+type jira.IssueTypeIssueCreateMetadata {
+  string self {
+  }
+  string id {
+  }
+  string description {
+  }
+  string iconUrl {
+  }
+  string name {
+  }
+  boolean subtask {
+  }
+  number avatarId {
+  }
+  string entityId {
+  }
+  number hierarchyLevel {
+  }
+  jira.Scope scope {
+  }
+  string expand {
+  }
+  jira.IssueTypeIssueCreateMetadata_fields fields {
+  }
+}

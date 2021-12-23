@@ -1,0 +1,10 @@
+type jira.Resolution {
+  string self {
+  }
+  string id {
+  }
+  string description {
+  }
+  string name {
+  }
+}

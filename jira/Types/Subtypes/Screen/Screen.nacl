@@ -1,0 +1,14 @@
+type jira.Screen {
+  number id {
+  }
+  string name {
+  }
+  string description {
+  }
+  jira.Scope scope {
+  }
+  "List<jira.ScreenableTab>" tabs {
+  }
+  "List<jira.ScreenableField>" availableFields {
+  }
+}

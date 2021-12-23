@@ -1,0 +1,14 @@
+type jira.agile__1_0__board__filter___filterId_@uuvuuuuuu_00123_00125 {
+  number maxResults {
+  }
+  number startAt {
+  }
+  number total {
+  }
+  boolean isLast {
+  }
+  "List<jira.agile__1_0__board__filter___filterId__values@uuvuuuuuu_00123_00125u>" values {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

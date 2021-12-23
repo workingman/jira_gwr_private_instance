@@ -1,0 +1,8 @@
+type jira.HealthCheckResult {
+  string name {
+  }
+  string description {
+  }
+  boolean passed {
+  }
+}

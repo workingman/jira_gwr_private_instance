@@ -1,0 +1,12 @@
+type jira.AttachmentArchiveItemReadable {
+  string path {
+  }
+  number index {
+  }
+  string size {
+  }
+  string mediaType {
+  }
+  string label {
+  }
+}

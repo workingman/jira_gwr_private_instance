@@ -1,0 +1,32 @@
+type jira.Field {
+  string id {
+  }
+  string name {
+  }
+  jira.JsonTypeBean schema {
+  }
+  string description {
+  }
+  string key {
+  }
+  boolean isLocked {
+  }
+  boolean isUnscreenable {
+  }
+  string searcherKey {
+  }
+  number screensCount {
+  }
+  number contextsCount {
+  }
+  jira.FieldLastUsed lastUsed {
+  }
+  "List<jira.CustomFieldContext>" contexts {
+  }
+  "List<jira.CustomFieldContextDefaultValue>" contextDefaults {
+  }
+  "List<jira.IssueTypeToContextMapping>" contextIssueTypes {
+  }
+  "List<jira.CustomFieldContextProjectMapping>" contextProjects {
+  }
+}

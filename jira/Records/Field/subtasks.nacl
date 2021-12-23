@@ -1,0 +1,11 @@
+jira.Field subtasks {
+  id = "subtasks"
+  name = "Sub-tasks"
+  schema = {
+    type = "array"
+    items = "issuelinks"
+    system = "subtasks"
+  }
+  description = ""
+  key = "subtasks"
+}

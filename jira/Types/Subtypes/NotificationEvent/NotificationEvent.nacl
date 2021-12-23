@@ -1,0 +1,10 @@
+type jira.NotificationEvent {
+  number id {
+  }
+  string name {
+  }
+  string description {
+  }
+  jira.NotificationEvent templateEvent {
+  }
+}

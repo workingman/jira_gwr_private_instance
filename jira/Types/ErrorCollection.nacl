@@ -1,0 +1,8 @@
+type jira.ErrorCollection {
+  "List<string>" errorMessages {
+  }
+  jira.ErrorCollection_errors errors {
+  }
+  number status {
+  }
+}

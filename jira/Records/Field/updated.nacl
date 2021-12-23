@@ -1,0 +1,10 @@
+jira.Field updated {
+  id = "updated"
+  name = "Updated"
+  schema = {
+    type = "datetime"
+    system = "updated"
+  }
+  description = ""
+  key = "updated"
+}

@@ -1,0 +1,6 @@
+type jira.deployments__0_1__pipelines___pipelineId___environments___environmentId___deployments___deploymentSequenceNumber__commands@uuvuuuu_00123_00125uuuu_00123_00125uuuu_00123_00125u {
+  string command {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

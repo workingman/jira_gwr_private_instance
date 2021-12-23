@@ -1,0 +1,10 @@
+type jira.IssueFieldOption {
+  number id {
+  }
+  string value {
+  }
+  jira.IssueFieldOption_properties properties {
+  }
+  jira.IssueFieldOptionConfiguration config {
+  }
+}

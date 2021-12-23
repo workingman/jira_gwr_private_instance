@@ -1,0 +1,6 @@
+type jira.ProjectScopeBean {
+  number id {
+  }
+  "List<string>" attributes {
+  }
+}

@@ -1,0 +1,10 @@
+type jira.Watchers {
+  string self {
+  }
+  boolean isWatching {
+  }
+  number watchCount {
+  }
+  "List<jira.UserDetails>" watchers {
+  }
+}

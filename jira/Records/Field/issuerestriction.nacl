@@ -1,0 +1,10 @@
+jira.Field issuerestriction {
+  id = "issuerestriction"
+  name = "Restrict to"
+  schema = {
+    type = "issuerestriction"
+    system = "issuerestriction"
+  }
+  description = ""
+  key = "issuerestriction"
+}

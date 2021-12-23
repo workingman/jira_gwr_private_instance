@@ -1,0 +1,10 @@
+type jira.Icon {
+  string url16x16 {
+  }
+  string title {
+  }
+  string link {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

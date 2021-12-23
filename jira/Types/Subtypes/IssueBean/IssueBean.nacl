@@ -1,0 +1,32 @@
+type jira.IssueBean {
+  string expand {
+  }
+  string id {
+  }
+  string self {
+  }
+  string key {
+  }
+  jira.IssueBean_renderedFields renderedFields {
+  }
+  jira.IssueBean_properties properties {
+  }
+  jira.IssueBean_names names {
+  }
+  jira.IssueBean_schema schema {
+  }
+  "List<jira.IssueBean_transitions>" transitions {
+  }
+  unknown operations {
+  }
+  unknown editmeta {
+  }
+  unknown changelog {
+  }
+  jira.IssueBean_versionedRepresentations versionedRepresentations {
+  }
+  jira.IssueBean_fields fields {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

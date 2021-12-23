@@ -1,0 +1,10 @@
+type jira.FailedWebhook {
+  string id {
+  }
+  string body {
+  }
+  string url {
+  }
+  number failureTime {
+  }
+}

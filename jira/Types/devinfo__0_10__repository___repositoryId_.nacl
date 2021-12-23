@@ -1,0 +1,26 @@
+type jira.devinfo__0_10__repository___repositoryId_@uuvuuuu_00123_00125 {
+  string name {
+  }
+  string description {
+  }
+  string forkOf {
+  }
+  string url {
+  }
+  "List<jira.devinfo__0_10__repository___repositoryId__commits@uuvuuuu_00123_00125u>" commits {
+  }
+  "List<jira.devinfo__0_10__repository___repositoryId__branches@uuvuuuu_00123_00125u>" branches {
+  }
+  "List<jira.devinfo__0_10__repository___repositoryId__pullRequests@uuvuuuu_00123_00125u>" pullRequests {
+  }
+  string avatar {
+  }
+  string avatarDescription {
+  }
+  string id {
+  }
+  number updateSequenceId {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

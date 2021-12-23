@@ -1,0 +1,28 @@
+type jira.Comment {
+  string self {
+  }
+  string id {
+  }
+  jira.UserDetails author {
+  }
+  unknown body {
+  }
+  string renderedBody {
+  }
+  jira.UserDetails updateAuthor {
+  }
+  string created {
+  }
+  string updated {
+  }
+  jira.Visibility visibility {
+  }
+  boolean jsdPublic {
+  }
+  boolean jsdAuthorCanSeeRequest {
+  }
+  "List<jira.EntityProperty>" properties {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

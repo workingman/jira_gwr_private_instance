@@ -1,0 +1,10 @@
+type jira.Votes {
+  string self {
+  }
+  number votes {
+  }
+  boolean hasVoted {
+  }
+  "List<jira.User>" voters {
+  }
+}

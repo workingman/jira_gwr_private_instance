@@ -1,0 +1,24 @@
+type jira.AuditRecordBean {
+  number id {
+  }
+  string summary {
+  }
+  string remoteAddress {
+  }
+  string authorKey {
+  }
+  string created {
+  }
+  string category {
+  }
+  string eventSource {
+  }
+  string description {
+  }
+  jira.AssociatedItemBean objectItem {
+  }
+  "List<jira.ChangedValueBean>" changedValues {
+  }
+  "List<jira.AssociatedItemBean>" associatedItems {
+  }
+}

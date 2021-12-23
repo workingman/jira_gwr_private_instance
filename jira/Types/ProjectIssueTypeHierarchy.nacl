@@ -1,0 +1,6 @@
+type jira.ProjectIssueTypeHierarchy {
+  number projectId {
+  }
+  "List<jira.ProjectIssueTypesHierarchyLevel>" hierarchy {
+  }
+}

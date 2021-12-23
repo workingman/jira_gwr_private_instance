@@ -1,0 +1,11 @@
+jira.Field worklog {
+  id = "worklog"
+  name = "Log Work"
+  schema = {
+    type = "array"
+    items = "worklog"
+    system = "worklog"
+  }
+  description = ""
+  key = "worklog"
+}

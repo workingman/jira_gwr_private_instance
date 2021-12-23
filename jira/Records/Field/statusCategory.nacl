@@ -1,0 +1,6 @@
+jira.Field statusCategory {
+  id = "statusCategory"
+  name = "Status Category"
+  description = ""
+  key = "statusCategory"
+}

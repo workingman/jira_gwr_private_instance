@@ -1,0 +1,12 @@
+type jira.ScreenScheme {
+  number id {
+  }
+  string name {
+  }
+  string description {
+  }
+  jira.ScreenTypes screens {
+  }
+  jira.PageBeanIssueTypeScreenScheme issueTypeScreenSchemes {
+  }
+}

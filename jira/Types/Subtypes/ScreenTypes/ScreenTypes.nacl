@@ -1,0 +1,12 @@
+type jira.ScreenTypes {
+  number edit {
+  }
+  number create {
+  }
+  number view {
+  }
+  number default {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

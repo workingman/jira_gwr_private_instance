@@ -1,0 +1,20 @@
+type jira.ProjectRoleDetails {
+  string self {
+  }
+  string name {
+  }
+  number id {
+  }
+  string description {
+  }
+  boolean admin {
+  }
+  jira.Scope scope {
+  }
+  boolean roleConfigurable {
+  }
+  string translatedName {
+  }
+  boolean default {
+  }
+}

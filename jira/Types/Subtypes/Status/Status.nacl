@@ -1,0 +1,8 @@
+type jira.Status {
+  boolean resolved {
+  }
+  jira.Icon icon {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

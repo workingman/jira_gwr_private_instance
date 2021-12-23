@@ -1,0 +1,14 @@
+type jira.CustomFieldContext {
+  string id {
+  }
+  string name {
+  }
+  string description {
+  }
+  boolean isGlobalContext {
+  }
+  boolean isAnyIssueType {
+  }
+  "List<jira.CustomFieldContextOption>" options {
+  }
+}

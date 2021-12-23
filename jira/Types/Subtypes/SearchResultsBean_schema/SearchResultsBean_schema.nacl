@@ -1,0 +1,4 @@
+type jira.SearchResultsBean_schema {
+  "Map<jira.SearchResultsBean_schema_additionalProperties>" additionalProperties {
+  }
+}

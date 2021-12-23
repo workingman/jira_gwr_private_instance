@@ -1,0 +1,12 @@
+type jira.Changelog {
+  string id {
+  }
+  jira.UserDetails author {
+  }
+  string created {
+  }
+  "List<jira.ChangeDetails>" items {
+  }
+  jira.HistoryMetadata historyMetadata {
+  }
+}

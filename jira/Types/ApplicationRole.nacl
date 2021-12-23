@@ -1,0 +1,26 @@
+type jira.ApplicationRole {
+  string key {
+  }
+  "List<string>" groups {
+  }
+  string name {
+  }
+  "List<string>" defaultGroups {
+  }
+  boolean selectedByDefault {
+  }
+  boolean defined {
+  }
+  number numberOfSeats {
+  }
+  number remainingSeats {
+  }
+  number userCount {
+  }
+  string userCountDescription {
+  }
+  boolean hasUnlimitedSeats {
+  }
+  boolean platform {
+  }
+}

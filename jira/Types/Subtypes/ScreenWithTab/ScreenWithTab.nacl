@@ -1,0 +1,12 @@
+type jira.ScreenWithTab {
+  number id {
+  }
+  string name {
+  }
+  string description {
+  }
+  jira.Scope scope {
+  }
+  jira.ScreenableTab tab {
+  }
+}

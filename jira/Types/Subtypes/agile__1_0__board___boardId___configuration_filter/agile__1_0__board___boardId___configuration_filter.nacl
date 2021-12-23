@@ -1,0 +1,8 @@
+type jira.agile__1_0__board___boardId___configuration_filter@uuvuuuu_00123_00125uuu {
+  string id {
+  }
+  string self {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

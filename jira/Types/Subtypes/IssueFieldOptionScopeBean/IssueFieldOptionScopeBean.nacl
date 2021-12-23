@@ -1,0 +1,10 @@
+type jira.IssueFieldOptionScopeBean {
+  "List<number>" projects {
+  }
+  "List<jira.ProjectScopeBean>" projects2 {
+  }
+  jira.GlobalScopeBean global {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

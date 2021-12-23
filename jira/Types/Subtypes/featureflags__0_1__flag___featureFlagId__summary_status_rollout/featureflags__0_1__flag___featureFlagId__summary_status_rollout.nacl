@@ -1,0 +1,10 @@
+type jira.featureflags__0_1__flag___featureFlagId__summary_status_rollout@uuvuuuu_00123_00125uuu {
+  number percentage {
+  }
+  string text {
+  }
+  number rules {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

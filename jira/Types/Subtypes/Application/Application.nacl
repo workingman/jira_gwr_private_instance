@@ -1,0 +1,8 @@
+type jira.Application {
+  string type {
+  }
+  string name {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}

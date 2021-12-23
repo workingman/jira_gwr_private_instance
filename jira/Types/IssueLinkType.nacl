@@ -1,0 +1,14 @@
+type jira.IssueLinkType {
+  string id {
+  }
+  string name {
+  }
+  string inward {
+  }
+  string outward {
+  }
+  string self {
+  }
+  "Map<unknown>" additionalProperties {
+  }
+}
